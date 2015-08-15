@@ -1,0 +1,41 @@
+/*
+* Error 404 Tempalte CSS
+*/
+
+body.error404,
+body.page-template-404_not_found-php {
+
+	.entry-header,
+	.entry-content {
+		max-width: 100%;
+	}
+
+	article {
+		 opacity: 1 !important;
+	}
+
+	#footer {
+		position: fixed;
+		bottom: 0;
+	}
+
+	&.body_horizontal {
+
+		#grid_content {
+			width: 100%;
+		}
+	}
+	
+	&.body_vertical {
+		
+		#main {
+			height: 100%;
+		}
+
+		#grid_content {
+			display: inline;
+		}
+
+	}
+	
+}

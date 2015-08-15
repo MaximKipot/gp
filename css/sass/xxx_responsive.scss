@@ -1,0 +1,92 @@
+
+/* HORIZONTAL BREAKPOINTS */
+
+// $w_1700: 1700px;
+// $w_1400: 1400px;
+// $w_1280: 1280px;
+// $w_1024: 1024px;
+// $w_900: 900px;
+// $w_650: 650px;
+// $w_500: 500px;
+// $w_320: 320px;
+
+// @mixin respond-to-width($point) {
+//   @if $point == 320 {
+//     @media only screen and (max-width: $w_320) { @content; }
+//   }
+//   @else if $point == 500 {
+//     @media only screen and (min-width: $w_320 + 1) and (max-width: $w_500) { @content; }
+//   }
+//   @else if $point == 650 {
+//     @media only screen and (min-width: $w_500 + 1) and (max-width: $w_650) { @content; }
+//   }
+//   @else if $point == 900 {
+//     @media only screen and (min-width: $w_650 + 1) and (max-width: $w_900) { @content; }
+//   }
+//   @else if $point == 1024 {
+//     @media only screen and (min-width: $w_900 + 1) and (max-width: $w_1024) { @content; }
+//   }
+//   @else if $point == 1280 {
+//     @media only screen and (min-width: $w_1024 + 1) and (max-width: $w_1280) { @content; }
+//   }
+//   @else if $point == 1400 {
+//     @media only screen and (min-width: $w_1280 + 1) and (max-width: $w_1400) { @content; }
+//   }
+//   @else if $point == 1700 {
+//     @media only screen and (min-width: $w_1400 + 1)  { @content; }
+//   }
+// }
+
+
+
+/* VERTICAL BREAKPOINTS */
+
+// $h_1000: 1000px;
+// $h_900: 900px;
+// $h_800: 800px;
+// $h_700: 700px;
+// $h_600: 600px;
+// $h_500: 500px;
+
+// @function el_size($size, $num_elements) {
+//   @return $size/$num_elements;
+// }
+
+// @mixin respond-to-height($point) {
+//   @if $point == 500 {
+//     @media only screen and (max-height: $h_500) { @content; };
+//   }
+//   @else if $point == 500 {
+//     @media only screen and (min-height: $h_500 + 1) and (max-height: $h_600) { @content; }
+//   }
+//   @else if $point == 600 {
+//     @media only screen and (min-height: $h_600 + 1) and (max-height: $h_700) { @content; }
+//   }
+//   @else if $point == 700 {
+//     @media only screen and (min-height: $h_700 + 1) and (max-height: $h_800) { @content; }
+//   }
+//   @else if $point == 800 {
+//     @media only screen and (min-height: $h_800 + 1) and (max-height: $h_900) { @content; }
+//   }
+//   @else if $point == 900 {
+//     @media only screen and (min-height: $h_900 + 1) and (max-height: $h_1000) { @content; }
+//   }
+//   @else if $point == 1000 {
+//     @media only screen and (min-height: $h_1000 + 1)  { @content; }
+//   }
+// }
+
+
+/* SPECIAL Classes */ 
+
+// .body_horizontal {
+//   .hide_horizontal {
+//     display:none !important;
+//   }
+// }
+
+// .body_vertical {
+//   .hide_vertical {
+//     display:none !important;
+//   }
+// }

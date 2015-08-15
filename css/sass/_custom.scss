@@ -1,0 +1,111 @@
+
+.entry-content > :first-child { margin-top: 0;} 
+.entry-content {
+	margin: 0;
+}
+
+.widget a {
+	line-height: 140%;
+}
+
+.iphorm-elements .iphorm-element-wrap-text input, 
+.iphorm-elements .iphorm-element-wrap-captcha input, 
+.iphorm-elements .iphorm-element-wrap-password input {
+	line-height: 2;
+	width: 433px;
+}
+
+.aside-content {
+	float: right;
+	font: 300 21px/29px "proxima-nova", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, arial, sans-serif;
+	width: 44%;
+	position: relative;
+	margin: 0 -47.85% 0 0;
+}
+
+.widget .current_page_item > a, 
+.widget li a.active, .widget .current-cat a {
+	color: #111;
+	padding-bottom: 2px;
+	border-bottom: none;
+}
+
+.widget .current_page_item > a, 
+.widget li a.active, 
+.widget .current-cat a {
+	color: #F16522;
+	padding-bottom: 2px;
+	border-bottom: none;
+	background-color: white;
+	padding: 0px 0px;
+}
+
+.page .entry-content {
+	margin: 0 0 0 0;
+}
+
+.single-post #grid_content .widget {
+	display: none;
+}
+
+.widget .current_page_item > a, 
+.widget li a.active, 
+.widget .current-cat a {
+	color: #F16522;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #F16522;
+	background-color: white;
+	padding: 2px 5px;
+}
+.widget a {
+	border-bottom: 0px;
+}
+
+.white_divider {
+	background-color: #fff; 
+	color: transparent;
+}
+
+#fancybox-wrap {
+	z-index: 100000;
+}
+
+.class_name_extra {
+	background-color: red !important;
+}
+
+/* 
+	need to detect scrollbar 
+	way the hell off screen 
+*/
+.scrollbar-measure {
+	width: 100px;
+	height: 100px;
+	overflow: scroll;
+	position: absolute;
+	top: -9999px;
+}
+
+.site-with-sidebar .site-content {
+	padding-bottom: 0px;
+}
+
+.image_center {
+	height: inherit;
+}
+
+/* SPECIAL Classes */ 
+
+.body_horizontal {
+  article.hide_horizontal,
+  .hide_horizontal {
+    display:none !important;
+  }
+}
+
+.body_vertical {
+  article.hide_vertical,
+  .hide_vertical {
+    display:none !important;
+  }
+}

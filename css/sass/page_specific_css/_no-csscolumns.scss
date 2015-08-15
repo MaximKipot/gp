@@ -1,0 +1,22 @@
+/*
+* Single Post CSS with no CSS Columns
+*/
+
+.no-csscolumns {
+	
+	.body_vertical {
+		.site-with-sidebar .site-content {
+			float: left;
+		}
+
+		#subnavigation {
+			float: left;
+			text-align: left;
+			margin-left: 0px;
+			padding: 0px;
+		}
+	}
+	
+
+}
+

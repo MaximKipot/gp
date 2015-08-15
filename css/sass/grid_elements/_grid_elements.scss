@@ -1,0 +1,217 @@
+/* 
+
+ELEMENTS OF GRID 
+Here are different Sizes and Colors defined
+
+TODO: clean it up a bit more
+
+*/
+@import "grid_elements/_type_image_text.scss";
+
+.inner_content {
+	overflow: hidden;
+	word-wrap: break-word;
+	display: block;
+	position: absolute;
+	height: auto;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+
+	margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: 9px;
+    margin-left: 13px;
+
+    @include clearfix-micro();
+}
+
+
+.inner_content {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+
+// Colors and Background Colors
+.inner_element {
+	&.background_turquoise_light{
+		background-color: $_turquoise_light;
+	}
+
+	&.border_turquoise_light {
+		border-color: $_turquoise_light;
+	}
+
+	&.background_turquoise_dark{
+		background-color: $_turquoise_dark;
+	}
+
+	&.border_turquoise_dark {
+		border-color: $_turquoise_dark;
+	}
+
+	&.background_gp_orange{
+		background-color: $_orange;
+	}
+
+	&.border_gp_orange {
+		border-color: $_orange;
+	}
+
+	&.background_gp_background_grey{
+		background-color: $_gp_background_grey;
+	}
+
+	&.border_gp_background_grey {
+		border-color: $_gp_background_grey;
+	}
+
+	&.background_white{
+		background-color: $_white;
+	}
+
+	&.border_white {
+		border-color: $_white;
+	}
+
+}
+
+article {
+
+	&.turquoise_light {
+		color: $_turquoise_light;
+	} 
+	&.turquoise_dark {
+		color: $_turquoise_dark;
+	} 
+	&.gp_orange {
+		color: $_orange;
+	} 
+	&.gp_background_grey {
+		color: $_gp_background_grey;
+	} 
+	&.white {
+		color: $_white;
+	} 
+
+}
+
+.body_horizontal,
+.body_vertical {
+	
+	.inner_content *:last-child,
+	.inner_content > *:last-child > *:last-child,
+	.inner_content > *:last-child > *:last-child > *:last-child {
+	  //margin-bottom: 0;
+	}
+
+	h2.article_title {
+		font-size: 150%;
+		margin: 0px 0px 10px 0px;
+		color: #555;
+	}
+
+	h2.article_title{
+		
+		margin-bottom: 0.7em;
+
+		&:after{
+		  	content: '';
+			position: absolute;
+			left: 0;
+			display: block;
+			background: $_turquoise_light;
+			width: 40px;
+			height: 3px;
+			margin-top: 0.2em;
+		}
+
+		&.turquoise_light,
+		&.turquoise_light a{
+			&:after {
+				background: $_turquoise_light;
+			}
+			color: $_turquoise_light;
+		}
+		&.turquoise_dark,
+		&.turquoise_dark a{
+			&:after {
+				background: $_turquoise_dark;
+			}
+			color: $_turquoise_dark;
+		}
+		&.gp_orange,
+		&.gp_orange a{
+			&:after {
+				background: $_orange;
+			}
+			color: $_orange;
+		}
+		&.gp_background_grey,
+		&.gp_background_grey a{
+			&:after {
+				background: $_gp_background_grey;
+			}
+			color: $_gp_background_grey;
+		}
+		&.white,
+		&.white a{
+			&:after {
+				background: $_white;
+			}
+			color: $_white;
+		}
+
+	}
+
+	.article_short {
+		font-size: 15px;
+		font-style: italic;
+		line-height: 1.25em;
+		font-weight: 300;
+		margin: 0px 0px 15px 0px;
+
+		&.turquoise_light,
+		&.turquoise_light a{
+			&:after {
+				background: $_turquoise_light;
+			}
+			color: $_turquoise_light;
+		}
+		&.turquoise_dark,
+		&.turquoise_dark a{
+			&:after {
+				background: $_turquoise_dark;
+			}
+			color: $_turquoise_dark;
+		}
+		&.gp_orange,
+		&.gp_orange a{
+			&:after {
+				background: $_orange;
+			}
+			color: $_orange;
+		}
+		&.gp_background_grey,
+		&.gp_background_grey a{
+			&:after {
+				background: $_gp_background_grey;
+			}
+			color: $_gp_background_grey;
+		}
+		&.white,
+		&.white a{
+			&:after {
+				background: $_white;
+			}
+			color: $_white;
+		}
+	}
+
+	.article_full {
+		margin: 0px 0px 10px 0px;
+	}
+
+}

@@ -1,0 +1,202 @@
+/* Main Elements */
+
+// .body_horizontal {
+// 	overflow-y: hidden;
+// }
+
+html, body {
+	// overflow: visible;
+	font-size: 100%;
+	font-family: "proxima-nova", sans-serif;
+}
+
+html {
+	overflow: visible;
+}
+
+body{
+  background: $_device_color;
+  word-wrap: break-word;
+}
+
+// This one is here for a 100% height Problem of IPAD (one could scroll content here and there)
+html.touch { position: fixed; top: 0px; bottom: 0px; width: 100%; }
+
+
+@font-face {
+	font-family: 'extra-icon';
+	src:url('../fonts/extra-icon.eot');
+	src:url('../fonts/extra-icon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/extra-icon.woff') format('woff'),
+		url('../fonts/extra-icon.ttf') format('truetype'),
+		url('../fonts/extra-icon.svg#extra-icon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+p {
+	font-family: "proxima-nova", sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 20px;
+	color: #000;
+}
+
+h1 {
+	// color: #1c4c51;
+	font-family: "proxima-nova", sans-serif;
+	font-size: 36px;
+	line-height: 120%;
+	color: #fff;
+	text-transform:uppercase;
+
+	font-family: "proxima-nova-condensed",sans-serif;
+	font-weight: 200;
+	font-size: 48px;
+	color: $_gp_orange;
+	// line-height: 50px;
+}
+
+h2 {
+	font-size: 48px;
+	margin: 0 0 20px 0;
+	// margin: 0 0 1.250em 0;
+	// line-height: 48px;
+	line-height: 1.1em;
+	font-weight: 400;
+	color: $_gp_orange;
+
+	font-family: "proxima-nova-condensed",sans-serif;
+	font-weight: 200;
+	// color: #EA5A0B;
+	// line-height: 50px;
+}
+
+h3 {
+	font-weight: 300; 
+	size: 29px;
+	line-height: 39px;
+	color: $_gp_orange;
+
+
+	font-family: "proxima-nova-condensed",sans-serif !important;
+	font-weight: 200 !important;
+	font-size: 36px !important;
+	line-height: 44px;
+	// color: #EA5A0B;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+h4 {
+	font-weight: 300; 
+	font-size: 21px;
+	line-height: 26px;
+	color: #234F54;
+
+	margin: 0px 0px 25px 0px;
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+.entry_content {
+
+	h2 {
+		font-size: 25px;
+		font-weight: 300;
+		line-height: 1.3em;
+	}
+
+	h2:first-child {
+		margin-top: 0px;
+	}
+
+
+	p {
+		line-height: 1.5em;
+	}
+}
+
+
+
+#grid_content {
+	ul {
+		// margin: 0;
+		// padding: 0;
+		list-style-position: inside;
+		padding-left: 20px;
+	}
+
+	ul li {
+		list-style-type: none;
+		padding: 0;
+		padding-bottom: 3px;
+
+		&:before {
+		font-family: 'extra-icon';
+		content: "\2c";
+		speak: none;
+		font-weight: normal;
+		font-variant: normal;
+		text-transform: none;
+		line-height: 1;
+		padding-right: 15px;
+		padding-left: 0px;
+		// margin: 0;
+		font-size: 10px;
+		text-align: left;
+
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		}
+		&:before,
+	    &:after {
+	      color: $_orange;
+	    }
+	}
+
+	.tabs ul li {
+		padding-bottom: 0px;
+	}
+	
+	.tabs ul li:before {
+		padding-right: 0px;
+		font-size: 0px;
+	}
+
+	.tabs li:before {
+	    content: "";
+	}
+}
+
+// ol, ul {
+// 	list-style: square;
+// }
+
+#grid_content {
+	margin-left: 0px;
+	background-color: $_transparent;
+	display: block; // 16.03 - inline-block
+	position: relative;
+	@include clearfix-micro();
+}
+
+// Horizontal Styles
+.body_horizontal {
+	overflow-y: hidden;
+	overflow-x: hidden; // 16.03 - hidden
+}
+
+// Vertical Styles
+.body_vertical {
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+

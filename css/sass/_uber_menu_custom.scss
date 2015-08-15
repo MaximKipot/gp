@@ -1,0 +1,76 @@
+
+
+/* Menu Items with Dropdowns */
+@mixin _menu_padding($top_bottom, $right_left, $font-size) {
+	#megaMenu #megaMenuToggle,
+	#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-reg ul.sub-menu li.menu-item.megaReg-with-sub > a, 
+	#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-reg ul.sub-menu li.menu-item.megaReg-with-sub > span.um-anchoremulator, 
+	#megaMenu ul.megaMenu li.menu-item.mega-with-sub > a, #megaMenu ul.megaMenu li.menu-item.mega-with-sub > span.um-anchoremulator, 
+	#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-mega > a, 
+	#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-mega > span.um-anchoremulator {
+	  padding: $top_bottom $right_left;
+	  font-size: $font-size;
+	  line-height: 100%;
+	}
+}
+
+@mixin _toggle_menu_padding($top_bottom, $right_left, $font-size) {
+	#megaMenu #megaMenuToggle {
+	  padding: $top_bottom $right_left;
+	  font-size: $font-size;
+	  line-height: 100%;
+	}
+}
+
+@include at-breakpoint($layout549) {
+	@include _menu_padding(15px, 10px, 15px);
+	@include _toggle_menu_padding(19px, 10px, 15px);
+	.widget a {
+		font-size: 15px;
+	}
+}
+
+@include at-breakpoint($layout749) {
+	@include _menu_padding(15px, 10px, 15px);
+	@include _toggle_menu_padding(19px, 10px, 15px);
+	.widget a {
+		font-size: 15px;
+	}
+}
+
+@include at-breakpoint($layout1199) {
+	@include _menu_padding(15px, 10px, 15px);
+	.widget a {
+		font-size: 15px;
+	}
+}
+
+@include at-breakpoint($layout1299) {
+	@include _menu_padding(15px, 10px, 15px);
+	.widget a {
+		font-size: 15px;
+	}
+}
+
+@include at-breakpoint($layout1499) {
+	@include _menu_padding(12px, 15px, 18px);
+	.widget a {
+		font-size: 18px;
+	}
+}
+
+@include at-breakpoint($layout1500) {
+	/* Menu Items with Dropdowns */
+	@include _menu_padding(10px, 20px, 19px);
+	.widget a {
+		font-size: 19px;
+	}
+	
+}
+
+#megaMenu {
+  border: none;
+  border-bottom: none;
+  background-color: $_navigation_color;
+  background: $_navigation_color;
+}

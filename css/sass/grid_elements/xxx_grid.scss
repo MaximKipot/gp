@@ -1,0 +1,57 @@
+/* ONE Element Mixin */
+$spacer:  10;
+$base_width: 110;
+$base_height: 110;
+
+@mixin one_el_width($_base_width, $_level, $_spacer) {
+	width: ($_base_width * $_level + ($_level - 1) * $_spacer) * 1px;  
+}
+
+@mixin one_el_height($_base_height, $_level, $_spacer) {
+	height: ($_base_height * $_level + ($_level - 1) * $_spacer) * 1px; 
+}
+
+
+/* SIZE CALCULATION start */
+
+.variable-sizes .element.width1 {
+	@include one_el_width($base_width, 1, $spacer); 
+}
+
+.variable-sizes .element.width2 {
+	@include one_el_width($base_width, 2, $spacer); 
+}
+
+.variable-sizes .element.width3 {
+	@include one_el_width($base_width, 3, $spacer); 
+}
+
+.variable-sizes .element.width4 {
+	@include one_el_width($base_width, 4, $spacer); 
+}
+
+.variable-sizes .element.width5 {
+	@include one_el_width($base_width, 5, $spacer); 
+}
+
+.variable-sizes .element.width1 {
+	@include one_el_height($base_height, 1, $spacer); 
+}
+
+.variable-sizes .element.width2 {
+	@include one_el_height($base_height, 2, $spacer); 
+}
+
+.variable-sizes .element.width3 {
+	@include one_el_height($base_height, 3, $spacer); 
+}
+
+.variable-sizes .element.width4 {
+	@include one_el_height($base_height, 4, $spacer); 
+}
+
+.variable-sizes .element.width5 {
+	@include one_el_height($base_height, 5, $spacer); 
+}
+
+/* SIZE CALCULATION end */

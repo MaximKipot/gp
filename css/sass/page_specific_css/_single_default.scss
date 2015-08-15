@@ -1,0 +1,101 @@
+/*
+* SINGLE Page Template CSS
+* 
+*/
+
+.single-post,
+.page-template,
+.page-template-default,
+.page-template-vertical-php,
+.page-template-vertical_subnavigation-php,
+.page-template-single_sidebar_subnavigation-php {
+	
+	&.body_horizontal {
+		overflow-y: auto;
+		overflow-x: auto;
+	}
+
+	&.body_horizontal article {
+		max-width: none;
+	}
+
+	article,
+	.entry-content,
+	.entry-header {
+		max-width: $_max_width;
+		@include at-breakpoint($layout1299) {max-width: $_max_width;}
+		@include at-breakpoint($layout1499) {max-width: $_max_width;}
+		@include at-breakpoint($layout1500) {max-width: $_max_width;}
+	}
+
+	// article {
+	// 	max-width: $_max_width;
+	// }
+
+	#content-single {
+		max-width: $_max_width;
+		@include at-breakpoint($layout1299) {max-width: $_max_width;}
+		@include at-breakpoint($layout1499) {max-width: $_max_width;}
+		@include at-breakpoint($layout1500) {max-width: $_max_width;}
+	}
+
+	.entry-header .post-image img {
+		width: 100%;
+	}
+
+
+}
+
+
+.page-template-vertical-php,
+.page-template-vertical_subnavigation-php {
+	&.body_horizontal {
+		article,
+		.entry-content,
+		.entry-header {
+			max-width: $_max_width;
+			@include at-breakpoint($layout1299) {max-width: $_max_width;}
+			@include at-breakpoint($layout1499) {max-width: $_max_width;}
+			@include at-breakpoint($layout1500) {max-width: $_max_width;}
+		}
+	}
+}
+
+.single-post,
+.page-template-default,
+.page-template-single_sidebar_subnavigation-php,
+.page-template-vertical-php,
+.page-template-vertical_subnavigation-php,
+.page-template-single_sidebar_subnavigation-php {
+
+	#page-wrapper {
+		margin: 0px;
+		// margin-bottom: -22px;
+		// min-height: 0;
+		min-height: 100%;
+		position: relative;
+	}
+
+	#footer {
+		position: relative;
+		display: block;
+		bottom: 0px;
+		height: auto;
+	}
+
+	#footer-push {
+		display: none;
+	}
+
+	#header-push {
+		display: none;
+	}
+
+	
+}
+
+.page-template-vertical-php {
+	#footer {
+		position: fixed;
+	}
+}

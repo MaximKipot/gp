@@ -1,0 +1,585 @@
+/**
+ * Add your modifications here.
+ */
+ 
+.orange {color: #EA5A0B;}
+.white {color:#fff;}
+.blue {color:#234f54;}
+
+.form-20 {
+margin-right:50px;
+}
+
+.iphorm-elements-20 .iphorm-submit-wrap {
+float:right;
+}
+
+.caption {
+font-size:13px;
+}
+
+.clear-left {
+clear:left;
+}
+.text-right h2 {
+text-align:right;
+}
+
+.bewerbergarantie h2, .bewerbergarantie .article_short  {
+text-align:center;
+}
+
+
+.line img {
+display:block !important;
+}
+
+.kursiv {
+font-style:italic;
+}
+
+.iphorm_10_6-captcha-image-wrap {
+margin-top:10px;
+}
+
+.iphorm-submit-input-wrap {
+margin-left: 150px
+}
+
+.line{
+border-bottom:solid #EA5A0B 2px;
+}
+
+span.text-check:before{
+color: #EA5A0B;
+padding-right:5px;
+}
+
+.single-post .divider.dashed {
+background-color: transparent !important;
+border-left: 2px dashed #fff;
+}
+
+.txl {text-align:left;}
+.txr {text-align:right;}
+.txc {text-align:center;}
+
+.font-30 {
+font-size: 30px;
+line-height: 20px;
+}
+
+.font-90 {
+font-size: 90px;
+line-height: 50px;
+font-family: "proxima-nova-condensed",sans-serif !important;
+}
+
+.gap-top {min-height:100px;}
+.boxx {min-height:160px;}
+
+.boxx {
+-webkit-column-break-inside: avoid;
+-moz-column-break-inside: avoid;
+column-break-inside: avoid;
+page-break-inside: avoid;
+break-inside: avoid;
+}
+
+.boxx p {
+font-size: 15px;
+}
+
+.boxx h2 {
+margin-bottom:10px;
+color:#234F54;
+}
+
+.boxx h2 {
+font-size:28px;
+}
+
+.height-180 {min-height:180px;}
+
+#content .presse-kontakt a:hover {
+text-decoration: underline;
+}
+
+button.btn-1 {
+font-size:20px;
+padding:10px;
+color:#EA5A0B;
+background: transparent;
+border:1px solid #fff;
+font-weight:normal;
+width:10em;
+text-align:center;
+}
+
+button.btn-2 {
+font-size:20px;
+padding:10px;
+color:#EA5A0B;
+background: transparent;
+border:1px solid #fff;
+font-weight:normal;
+text-align:center;
+width:100%;
+}
+
+button.btn-3 {
+font-size:20px;
+padding:10px;
+color:#EA5A0B;
+background: transparent;
+border:1px solid #fff;
+font-weight:normal;
+text-align:center;
+width:10em;
+}
+
+button.btn-1:hover, button.btn-2:hover,  button.btn-3:hover{
+background: #fff;
+}
+
+.kontakt{
+text-align:center;
+}
+
+.kontakt .button {
+font-size:20px;
+padding:10px;
+color:#EA5A0B;
+background: transparent;
+border:1px solid #fff;
+font-weight:normal;
+width:10em;
+text-align:center;
+}
+
+.kontakt .button:hover {
+background: #fff;
+}
+
+
+.kontakt a:link, .kontakt a:hover, .kontakt a {
+text-decoration:none !important;
+ }
+
+.kontakt button:hover {
+background: #fff;
+border:1px solid #fff;
+}
+
+
+.hr-orange {
+border: 1px solid #EA5A0B;
+    margin: 0;
+    margin-bottom:20px;
+    padding:0;
+}
+
+.hr-white{
+border: 1px solid #fff;
+}
+
+.hr-blue{
+border: 1px solid #234f54;
+}
+
+.image-center{
+text-align:center;
+}
+
+
+.image-right{
+text-align:right;
+}
+
+
+/* FOOTER */
+
+#footer ul {
+padding-top: 5px;
+}
+
+.footer-navigation a, 
+.footer-navigation a:link, 
+.footer-navigation a:visited {
+color: #1c4c51;
+}
+
+.footer-navigation a:hover {
+color: #fff;
+text-decoration:underline;
+}
+
+.footer-navigation #menu-item-682 a,
+.footer-navigation #menu-item-686 a,
+.footer-navigation #menu-item-682 a:link,
+.footer-navigation #menu-item-686 a:link,
+.footer-navigation #menu-item-682 a:visited,
+.footer-navigation #menu-item-682 a:visited
+{
+color: #fff;
+text-decoration:none;
+}
+
+.footer-navigation #menu-item-682 a:hover,
+.footer-navigation #menu-item-686 a:hover
+{
+color: #fff;
+text-decoration:none;
+}
+
+/* FOOTER END  */
+
+ 
+/**
+ * CSS for Shortcodes
+ */
+
+ 
+ /*
+ CSS für Produkte Seite - "Stellenanzeigen schalten mit persy"  postid-6860
+ */
+ 
+.postid-6860 .panel,
+.postid-6860 .panel-border {
+height:270px;
+position:relative;
+}
+
+.postid-6860 .panel-1 {
+height:345px;
+position:relative;
+}
+
+.postid-6860 .panel-2 {
+height:290px;
+position:relative;
+}
+
+
+.postid-6860 .panel-border {
+border-bottom: 2px solid #EA5A0B;
+}
+
+.postid-6860 .panel-long  img,
+.postid-6860 .panel-1  img,
+.postid-6860 .panel-2  img,
+.postid-6860 .panel-persy  img, 
+.postid-6860 .panel-border img,
+.postid-6860 .panel-border h3
+{
+position:absolute;
+left:0;
+bottom:0;
+}
+
+.panel-border + h2 {
+padding-top:10px;
+}
+
+.panel-long {
+height:415px;
+position:relative;
+}
+ 
+ /*
+ CSS für Produkte Seite _ENDE
+ */ 
+ 
+ 
+ 
+ 
+ 
+ .top{
+border-top:2px;
+border-style:solid;
+}
+
+.right{
+border-right:2px;
+border-style:solid;
+}
+
+.bottom{
+border-bottom:2px;
+border-style:solid;
+}
+
+.left{
+border-left:2px;
+border-style:solid;
+}
+
+.orange{
+border-color:#EA5A0B;
+}
+ 
+.white{
+border-color:#fff;
+}
+.blue{
+border-color:#234f54;
+}
+ 
+.postid-91 .panel {
+ margin-bottom:20px;
+
+ }
+ 
+.postid-91 .panel_2{
+margin-bottom:20px;
+margin-top:118px;
+ }
+ 
+/* BEGIN CSS fuer Quotes */
+
+.triangle-box-right {
+border-top:2px solid #EA5A0B;
+}
+
+.triangle-box-right img {
+float: left;
+position:relative;
+top:-80px;
+z-index:-1;
+}
+
+.triangle-right{ 
+    position: relative; 
+	left:100px;
+    height: 0px; 
+    width: 0px; 
+    -webkit-transform: skew(156deg); 
+    transform: skew(156deg); 
+    border-top: 20px solid #EA5A0B; 
+    border-left: 20px solid #EA5A0B; 
+    border-right: 20px solid transparent; 
+    border-bottom: 20px solid transparent; 
+}
+
+.triangle-right-2{ 
+    position: relative;
+	left:103px;
+	top:-44px;
+    height: 0px; 
+    width: 0px; 
+	-webkit-transform: skew(156deg); 
+    transform: skew(156deg); 
+    border-top: 20px solid #d0d0d0; 
+    border-left: 20px solid #d0d0d0; 
+    border-right: 20px solid transparent; 
+    border-bottom: 20px solid transparent; 
+}
+
+  
+.triangle-box-left {
+border-top:2px solid #EA5A0B;
+position:relative;
+}
+
+.triangle-box-left img {
+float:right;
+/*margin-top:-24px;*/
+}
+
+.triangle-left{ 
+	position:absolute;
+	right:80px;
+    height: 0px; 
+    width: 0px; 
+    -webkit-transform: skew(56deg); 
+    transform: skew(56deg); 
+    border-top: 20px solid #EA5A0B; 
+    border-left: 20px solid #EA5A0B; 
+    border-right: 20px solid transparent; 
+    border-bottom: 20px solid transparent; 
+}
+
+.triangle-left-2{ 
+    position:absolute;
+	right:83px;
+	top:-4px;
+	height: 0px; 
+    width: 0px; 
+	-webkit-transform: skew(56deg); 
+    transform: skew(56deg); 
+    border-top: 20px solid #d0d0d0; 
+    border-left: 20px solid #d0d0d0; 
+    border-right: 20px solid transparent; 
+    border-bottom: 20px solid transparent; 
+}
+/* END CSS fuer Quotes */
+
+/* Individuelle Abstände */
+
+.gap-3 {min-height:3px;}
+.gap-5 {min-height:5px;}
+.gap-6 {min-height:6px;}
+.gap-8 {min-height:8px;}
+.gap-10 {min-height:10px;}
+.gap-11 {min-height:11px;}
+.gap-12 {min-height:12px;}
+.gap-15 {min-height:15px;}
+.gap-19 {min-height:19px;}
+.gap-20 {min-height:20px;}
+.gap-22 {min-height:22px;}
+.gap-23 {min-height:23px;}
+.gap-25 {min-height:25px;}
+.gap-26 {min-height:26px;}
+.gap-27 {min-height:27px;}
+.gap-28 {min-height:28px;}
+.gap-30 {min-height:30px;}
+.gap-31 {min-height:31px;}
+.gap-33 {min-height:33px;}
+.gap-37 {min-height:37px;}
+.gap-40 {min-height:40px;}
+.gap-42 {min-height:42px;}
+.gap-45 {min-height:45px;}
+.gap-47 {min-height:47px;}
+.gap-48 {min-height:48px;}
+.gap-50 {min-height:50px;}
+.gap-52 {min-height:52px;}
+.gap-53 {min-height:53px;}
+.gap-55 {min-height:55px;}
+.gap-56 {min-height:56px;}
+.gap-57 {min-height:57px;}
+.gap-58 {min-height:58px;}
+.gap-60 {min-height:60px;}
+.gap-61 {min-height:61px;}
+.gap-62 {min-height:62px;}
+.gap-65 {min-height:65px;}
+.gap-66 {min-height:66px;}
+.gap-67 {min-height:67px;}
+.gap-68 {min-height:68px;}
+.gap-70 {min-height:70px;}
+.gap-72 {min-height:72px;}
+.gap-73 {min-height:73px;}
+.gap-74 {min-height:74px;}
+.gap-75 {min-height:75px;}
+.gap-76 {min-height:76px;}
+.gap-77 {min-height:77px;}
+.gap-78 {min-height:78px;}
+.gap-79 {min-height:79px;}
+.gap-80 {min-height:80px;}
+.gap-81 {min-height:81px;}
+.gap-83 {min-height:83px;}
+.gap-85 {min-height:85px;}
+.gap-87 {min-height:87px;}
+.gap-88 {min-height:88px;}
+.gap-90 {min-height:90px;}
+.gap-93 {min-height:93px;}
+.gap-94 {min-height:94px;}
+.gap-95 {min-height:95px;}
+.gap-98 {min-height:98px;}
+.gap-100 {min-height:100px;}
+.gap-102 {min-height:102px;}
+.gap-103 {min-height:103px;}
+.gap-104 {min-height:104px;}
+.gap-105 {min-height:105px;}
+.gap-106 {min-height:106px;}
+.gap-107 {min-height:107px;}
+.gap-108 {min-height:108px;}
+.gap-110 {min-height:110px;}
+.gap-111 {min-height:111px;}
+.gap-114 {min-height:114px;}
+.gap-115 {min-height:115px;}
+.gap-117 {min-height:117px;}
+.gap-119 {min-height:119px;}
+.gap-120{min-height:120px;}
+.gap-122{min-height:122px;}
+.gap-124 {min-height:124px;}
+.gap-125 {min-height:125px;}
+.gap-130 {min-height:130px;}
+.gap-135 {min-height:135px;}
+.gap-136 {min-height:136px;}
+.gap-140 {min-height:140px;}
+.gap-145 {min-height:145px;}
+.gap-149 {min-height:149px;}
+.gap-150 {min-height:150px;}
+.gap-153 {min-height:153px;}
+.gap-155 {min-height:155px;}
+.gap-157 {min-height:157px;}
+.gap-158 {min-height:158px;}
+.gap-159 {min-height:159px;}
+.gap-160 {min-height:160px;}
+.gap-165 {min-height:165px;}
+.gap-166 {min-height:166px;}
+.gap-167 {min-height:167px;}
+.gap-169 {min-height:169px;}
+.gap-170 {min-height:170px;}
+.gap-173 {min-height:173px;}
+.gap-175 {min-height:175px;}
+.gap-178 {min-height:178px;}
+.gap-180 {min-height:180px;}
+.gap-183 {min-height:183px;}
+.gap-185 {min-height:185px;}
+.gap-190 {min-height:190px;}
+.gap-192 {min-height:192px;}
+.gap-195 {min-height:195px;}
+.gap-198 {min-height:198px;}
+.gap-203 {min-height:203px;}
+.gap-205 {min-height:205px;}
+.gap-209 {min-height:209px;}
+.gap-210 {min-height:210px;}
+.gap-225 {min-height:225px;}
+.gap-232 {min-height:232px;}
+.gap-233 {min-height:233px;}
+.gap-250 {min-height:250px;}
+.gap-260 {min-height:260px;}
+.gap-270 {min-height:270px;}
+.gap-275 {min-height:275px;}
+.gap-280 {min-height:280px;}
+
+.height-180 {min-height:180px;}
+
+
+.gap-200 {min-height:200px;}
+.abstand-1 {height: 38px;}
+.abstand-2 {height: 124px;}
+.abstand-30 {height:30px;}
+.abstand-40 {height:40px;}
+.abstand-45 {height:45px;}
+.abstand-50 {height:50px;}
+.abstand-60 {height:60px;}
+.abstand-61 {height:61px;}
+.abstand-63 {height:63px;}
+.abstand-65 {height:65px;}
+.abstand-77 {height:77px;}
+.abstand-82 {height: 82px;}
+.abstand-82 {height: 82px;}
+.abstand-84 {height: 84px;}
+.abstand-85 {height: 85px;}
+.abstand-100 {height: 100px;}
+.abstand-142 {height: 142px;}
+.abstand-150 {height: 150px;}
+.abstand-155 {height: 155px;}
+.abstand-160 {height: 160px;}
+.abstand-165 {height: 165px;}
+.abstand-200 {height: 200px;}
+.abstand-215 {height: 215px;}
+.abstand-220 {height: 220px;}
+.abstand-222 {height: 222px;}
+.abstand-225 {height: 225px;}
+.abstand-228 {height: 228px;}
+.abstand-230 {height: 230px;}
+.abstand-240 {height: 240px;}
+.abstand-245 {height: 245px;}
+.abstand-250 {height: 250px;}
+
+@media (min-height: 671px) and (max-height: 794px) {
+    .body_horizontal  h2.article_title.white,
+    .body_horizontal  h2.article_title.turquoise_dark,
+    .body_horizontal  h2.article_title.gp_orange
+    {
+        font-size: 105%;
+    }
+    .body_horizontal .article_short p{
+        font-size: 11px;
+        line-height:15px;
+
+    }
+}

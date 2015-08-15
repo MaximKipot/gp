@@ -1,0 +1,3687 @@
+@import url(../css/jquery.mCustomScrollbar.css);
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000317}}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000322}}
+html {
+  line-height: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000324}}
+ol, ul {
+  list-style: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000326}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000328}}
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000330}}
+q, blockquote {
+  quotes: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\00003103}}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000332}}
+a img {
+  border: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\00003116}}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/*! normalize.css v1.1.0 | MIT License | git.io/normalize */
+/*! normalize.css v1.1.0 | HTML5 Display Definitions | MIT License | git.io/normalize */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_html5\.scss}line{font-family:\0000320}}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_html5\.scss}line{font-family:\0000328}}
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_html5\.scss}line{font-family:\0000339}}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_html5\.scss}line{font-family:\0000346}}
+[hidden] {
+  display: none;
+}
+
+/*! normalize.css v1.1.0 | Base | MIT License | git.io/normalize */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_base\.scss}line{font-family:\0000313}}
+html {
+  font-size: 100%;
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_base\.scss}line{font-family:\0000330}}
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_base\.scss}line{font-family:\0000337}}
+body {
+  margin: 0;
+}
+
+/*! normalize.css v1.1.0 | Links | MIT License | git.io/normalize */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_links\.scss}line{font-family:\000039}}
+a:focus {
+  outline: thin dotted;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_links\.scss}line{font-family:\0000316}}
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/*! normalize.css v1.1.0 | Typography | MIT License | git.io/normalize */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\0000313}}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\0000319}}
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\0000324}}
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\0000329}}
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\0000334}}
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\0000339}}
+h6 {
+  font-size: 0.67em;
+  margin: 2.33em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\0000347}}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\0000354}}
+b,
+strong {
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\0000359}}
+blockquote {
+  margin: 1em 40px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\0000366}}
+dfn {
+  font-style: italic;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\0000373}}
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\0000381}}
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\0000390}}
+p,
+pre {
+  margin: 1em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\00003100}}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\00003110}}
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\00003118}}
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\00003127}}
+q {
+  quotes: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\00003132}}
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\00003140}}
+small {
+  font-size: 80%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\00003147}}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\00003154}}
+sup {
+  top: -0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_typography\.scss}line{font-family:\00003158}}
+sub {
+  bottom: -0.25em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_lists\.scss}line{font-family:\0000311}}
+dl,
+menu,
+ol,
+ul {
+  margin: 1em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_lists\.scss}line{font-family:\0000315}}
+dd {
+  margin: 0 0 0 40px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_lists\.scss}line{font-family:\0000323}}
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_lists\.scss}line{font-family:\0000330}}
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none;
+}
+
+/*! normalize.css v1.1.0 | Embedded Content | MIT License | git.io/normalize */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_embeds\.scss}line{font-family:\000039}}
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_embeds\.scss}line{font-family:\0000318}}
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/*! normalize.css v1.1.0 | Figures | MIT License | git.io/normalize */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_figures\.scss}line{font-family:\000039}}
+figure {
+  margin: 0;
+}
+
+/*! normalize.css v1.1.0 | Forms | MIT License | git.io/normalize */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_forms\.scss}line{font-family:\0000310}}
+form {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_forms\.scss}line{font-family:\0000317}}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_forms\.scss}line{font-family:\0000330}}
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+  *margin-left: -7px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_forms\.scss}line{font-family:\0000349}}
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_forms\.scss}line{font-family:\0000363}}
+button,
+input {
+  line-height: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_forms\.scss}line{font-family:\0000373}}
+button,
+select {
+  text-transform: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_forms\.scss}line{font-family:\0000390}}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+  *overflow: visible;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_forms\.scss}line{font-family:\00003101}}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_forms\.scss}line{font-family:\00003113}}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  *height: 13px;
+  *width: 13px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_forms\.scss}line{font-family:\00003126}}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_forms\.scss}line{font-family:\00003137}}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_forms\.scss}line{font-family:\00003144}}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_forms\.scss}line{font-family:\00003152}}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/*! normalize.css v1.1.0 | Tables | MIT License | git.io/normalize */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-normalize-1\.4\.3\/stylesheets\/normalize\/_tables\.scss}line{font-family:\000039}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Main Settings and Mixins */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/susy-1\.0\.9\/sass\/susy\/_grid\.scss}line{font-family:\0000314}}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* HORIZONTAL BREAKPOINTS */
+/* VERTICAL BREAKPOINTS */
+/* Page with some mixins */
+/* Structure & Elements */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_login\.scss}line{font-family:\000035}}
+#login iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_login\.scss}line{font-family:\0000313}}
+#login {
+  width: 100%;
+  padding: 0;
+  padding-bottom: 30px;
+  background-image: url("../images/ajax-loader.gif");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_login\.scss}line{font-family:\0000322}}
+#login {
+  position: fixed;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  top: -148px;
+  background-color: #1C4C51;
+  z-index: 99999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_login\.scss}line{font-family:\0000330}}
+#login.login_open {
+  top: 0px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_login\.scss}line{font-family:\0000335}}
+#login-btn {
+  position: absolute;
+  height: 30px;
+  line-height: 30px;
+  cursor: pointer;
+  right: 20px;
+  width: 140px;
+  bottom: -35px;
+  color: #E6E7E7;
+  font-weight: bold;
+  font-size: 0.85714em;
+  margin: 0 0 5px 0;
+  text-align: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_login\.scss}line{font-family:\0000353}}
+#login-btn:hover {
+  color: #F16521;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_login\.scss}line{font-family:\0000358}}
+#log-txt {
+  text-align: center;
+  line-height: 30px;
+  padding: 0 0 0 25px;
+  background: #1c4c51 url("../images/per-login.png") 10px 6px no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_login\.scss}line{font-family:\0000364}}
+#log-txt:after {
+  content: url("../images/persy-pfeil.png");
+  display: inline-block;
+  padding: 0 0 0 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_login\.scss}line{font-family:\0000372}}
+.button label {
+  margin: 0 0 3px 0;
+}
+
+@media (max-width: 39.21429em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_login\.scss}line{font-family:\0000379}}
+  #login {
+    height: 200px;
+    top: -198px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_login\.scss}line{font-family:\0000384}}
+  #login-btn {
+    right: 15px;
+    width: 100px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_login\.scss}line{font-family:\0000390}}
+  #log-txt {
+    margin: 0;
+    padding: 0;
+    background-image: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_login\.scss}line{font-family:\0000394}}
+  #log-txt:after {
+    padding: 0 0 0 5px;
+  }
+}
+@media (min-width: 39.21429em) and (max-width: 53.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_login\.scss}line{font-family:\00003102}}
+  #login {
+    height: 100px;
+    top: -98px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_login\.scss}line{font-family:\00003107}}
+  #login-btn {
+    right: 15px;
+    width: 140px;
+  }
+}
+@media (min-width: 53.5em) and (max-width: 85.64286em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_login\.scss}line{font-family:\00003115}}
+  #login {
+    height: 100px;
+    top: -98px;
+  }
+}
+@media (min-width: 85.64286em) and (max-width: 92.78571em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_login\.scss}line{font-family:\00003127}}
+  #login {
+    height: 100px;
+    top: -98px;
+  }
+}
+@media (min-width: 92.78571em) and (max-width: 107.07143em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_login\.scss}line{font-family:\00003139}}
+  #login {
+    height: 150px;
+    top: -148px;
+  }
+}
+@media (min-width: 107.14286em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_login\.scss}line{font-family:\00003149}}
+  #login {
+    height: 150px;
+    top: -148px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_login\.scss}line{font-family:\00003154}}
+  #login-btn {
+    right: 40px;
+    width: 140px;
+    bottom: -35px;
+  }
+}
+/*
+* Elements: 
+*		#header
+*		#header-logo-block
+*		#header-navigation
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\0000310}}
+#header {
+  width: 100%;
+  padding: 0;
+  padding-bottom: 30px;
+  height: 60px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\0000316}}
+#header #header-logo-block {
+  position: absolute;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\0000323}}
+#header,
+#header-push {
+  background-color: #e6e7e7;
+  display: block;
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\0000329}}
+#header {
+  position: fixed;
+  top: 0px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\0000335}}
+#header-logo-block {
+  height: 100%;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\0000341}}
+#header-logo-slogan {
+  width: 100%;
+  display: inline-block;
+}
+@media only screen and (max-width: 320px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\0000341}}
+  #header-logo-slogan {
+    display: none;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 500px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\0000341}}
+  #header-logo-slogan {
+    display: none;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\0000349}}
+#header-logo {
+  width: 100%;
+  display: none;
+}
+@media only screen and (max-width: 320px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\0000349}}
+  #header-logo {
+    display: inline-block;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 500px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\0000349}}
+  #header-logo {
+    display: inline-block;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\0000357}}
+#header-navigation {
+  display: inline-block;
+}
+
+@media only screen and (min-width: 651px) and (max-width: 900px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\0000361}}
+  #header-logo-block {
+    width: 260px;
+  }
+}
+@media only screen and (min-width: 901px) and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\0000361}}
+  #header-logo-block {
+    width: 260px;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\0000361}}
+  #header-logo-block {
+    width: 270px;
+  }
+}
+@media only screen and (min-width: 1281px) and (max-width: 1400px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\0000361}}
+  #header-logo-block {
+    width: 270px;
+  }
+}
+@media only screen and (min-width: 1401px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\0000361}}
+  #header-logo-block {
+    width: 270px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\0000370}}
+  #header-logo-block {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 500px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\0000370}}
+  #header-logo-block {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\0000375}}
+  #header-navigation {
+    margin-left: 0px;
+    width: 100%;
+    display: block;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 650px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\0000375}}
+  #header-navigation {
+    margin-left: 0px;
+    width: 100%;
+    display: block;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\0000386}}
+#top_iframe {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\0000397}}
+.body_vertical #header,
+.body_vertical #header-push {
+  display: block;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\00003102}}
+.body_vertical #header {
+  position: relative;
+  top: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\00003107}}
+.body_vertical #header-push {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\00003111}}
+.body_vertical #header-navigation {
+  margin-left: 0px;
+  width: 100%;
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\00003117}}
+.body_vertical #header-logo-block {
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\00003123}}
+#header_extra_block {
+  width: 100%;
+}
+
+@media (max-width: 39.21429em) {
+  height: 60px;
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\00003131}}
+  #header-logo-block {
+    height: 60px;
+    width: 60px;
+    background-image: url("../images/gp%2060x60.png");
+    left: 15px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\00003138}}
+  #header-navigation {
+    display: block;
+    width: 100%;
+    padding: 30px 120px 0 90px;
+    margin: 0px 0px 15px 0px;
+    height: 60px;
+  }
+}
+@media (min-width: 39.21429em) and (max-width: 53.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\00003150}}
+  #header {
+    height: 80px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\00003153}}
+  #header #header-logo-block {
+    height: 60px;
+    width: 60px;
+    background-image: url("../images/gp%2060x60.png");
+    top: 10px;
+    left: 15px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\00003160}}
+  #header #header-navigation {
+    display: block;
+    width: 100%;
+    padding: 40px 15px 0 90px;
+    margin: 0px 0px 40px 0px;
+    height: 70px;
+  }
+}
+@media (min-width: 53.5em) and (max-width: 85.64286em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\00003172}}
+  #header {
+    height: 110px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\00003175}}
+  #header #header-logo-block {
+    height: 60px;
+    width: 250px;
+    background-image: url("../images/gp%20230x60.png");
+    top: 10px;
+    left: 20px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\00003182}}
+  #header #header-navigation {
+    display: inline-block;
+    padding: 0 20px 0 290px;
+    margin: 40px 0;
+  }
+}
+@media (min-width: 85.64286em) and (max-width: 92.78571em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\00003192}}
+  #header {
+    height: 110px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\00003195}}
+  #header #header-logo-block {
+    height: 60px;
+    width: 250px;
+    background-image: url("../images/gp%20230x60.png");
+    top: 10px;
+    left: 20px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\00003202}}
+  #header #header-navigation {
+    display: inline-block;
+    padding: 0 20px 0 290px;
+    margin: 40px 0;
+  }
+}
+@media (min-width: 92.78571em) and (max-width: 107.07143em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\00003212}}
+  #header {
+    height: 130px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\00003214}}
+  #header #header-logo-block {
+    height: 70px;
+    width: 260px;
+    background-image: url("../images/gp%20260x70.png");
+    top: 15px;
+    left: 20px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\00003221}}
+  #header #header-navigation {
+    display: inline-block;
+    padding: 0 20px 0 320px;
+    margin: 55px 0 0;
+  }
+}
+@media (min-width: 107.14286em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\00003231}}
+  #header {
+    height: 130px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\00003233}}
+  #header #header-logo-block {
+    height: 74px;
+    width: 360px;
+    background-image: url("../images/gp%20340x74.png");
+    top: 13px;
+    left: 40px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_header\.scss}line{font-family:\00003240}}
+  #header #header-navigation {
+    display: inline-block;
+    padding: 0 20px 0 400px;
+    margin: 57px 0 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_footer\.scss}line{font-family:\000032}}
+#footer,
+#footer-push {
+  height: 22px;
+  display: inline-block;
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_footer\.scss}line{font-family:\000039}}
+#footer {
+  position: fixed;
+  background-color: #91a8ab;
+  bottom: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_footer\.scss}line{font-family:\0000314}}
+#footer ul {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_footer\.scss}line{font-family:\0000319}}
+.footer-navigation a {
+  color: #1c4c51;
+  font-size: 12px;
+  border-bottom: none;
+  padding: 0 0 1px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_footer\.scss}line{font-family:\0000326}}
+.footer-links .credits {
+  float: left;
+  margin: 0 0 0 30px;
+  color: white;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_mixins\.scss}line{font-family:\000034}}
+.single-post #footer,
+.page-template-default #footer {
+  *zoom: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_mixins\.scss}line{font-family:\000038}}
+.single-post #footer:before, .single-post #footer:after,
+.page-template-default #footer:before,
+.page-template-default #footer:after {
+  content: "";
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_mixins\.scss}line{font-family:\0000312}}
+.single-post #footer:after,
+.page-template-default #footer:after {
+  clear: both;
+}
+@media (max-width: 39.21429em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_footer\.scss}line{font-family:\0000336}}
+  .single-post #footer,
+  .page-template-default #footer {
+    position: relative;
+    bottom: auto;
+    height: auto;
+  }
+}
+@media (min-width: 39.21429em) and (max-width: 53.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_footer\.scss}line{font-family:\0000336}}
+  .single-post #footer,
+  .page-template-default #footer {
+    position: relative;
+    bottom: auto;
+    height: auto;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_footer\.scss}line{font-family:\0000346}}
+.body_vertical #footer-push {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_footer\.scss}line{font-family:\0000350}}
+.body_vertical #footer {
+  position: relative;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_subnavigation\.scss}line{font-family:\000034}}
+#subnavigation_holder h1 {
+  font-size: 25px;
+  margin: 0.67em 0;
+  margin-top: 0px;
+  line-height: 1.2em;
+  font-weight: 600;
+  text-transform: none;
+  padding: 0;
+  text-align: none;
+  position: relative;
+  color: #F16522;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_subnavigation\.scss}line{font-family:\0000318}}
+#subnavigation_holder h1:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  display: block;
+  background: #F16522;
+  width: 40px;
+  height: 3px;
+  margin-top: 0.2em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_subnavigation\.scss}line{font-family:\0000330}}
+#subnavigation_holder h6.widget-title {
+  text-transform: uppercase;
+  color: #B1B1B1;
+  margin: 60px 0px 0px 0px;
+  font-weight: 700;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_subnavigation\.scss}line{font-family:\0000352}}
+#grid_content #subnavigation ul li:before {
+  content: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_subnavigation\.scss}line{font-family:\0000357}}
+#subnavigation {
+  opacity: 0;
+  background-color: #e6e7e7;
+  text-align: right;
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_subnavigation\.scss}line{font-family:\0000359}}
+#subnavigation ul li:before {
+  content: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_mixins\.scss}line{font-family:\000034}}
+#subnavigation {
+  *zoom: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_mixins\.scss}line{font-family:\000038}}
+#subnavigation:before, #subnavigation:after {
+  content: "";
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_mixins\.scss}line{font-family:\0000312}}
+#subnavigation:after {
+  clear: both;
+}
+@media only screen and (max-width: 320px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_subnavigation\.scss}line{font-family:\0000357}}
+  #subnavigation {
+    width: 100%;
+    height: 50%;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 650px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_subnavigation\.scss}line{font-family:\0000357}}
+  #subnavigation {
+    width: 60%;
+    float: right;
+    height: 100%;
+  }
+}
+@media (min-width: 39.21429em) and (max-width: 53.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_subnavigation\.scss}line{font-family:\0000357}}
+  #subnavigation {
+    width: 290px;
+  }
+}
+@media (min-width: 53.5em) and (max-width: 85.64286em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_subnavigation\.scss}line{font-family:\0000357}}
+  #subnavigation {
+    width: 235px;
+    margin-left: 20px;
+    margin-right: 15px;
+  }
+}
+@media (min-width: 85.64286em) and (max-width: 92.78571em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_subnavigation\.scss}line{font-family:\0000357}}
+  #subnavigation {
+    width: 235px;
+    margin-left: 20px;
+    margin-right: 15px;
+  }
+}
+@media (min-width: 92.78571em) and (max-width: 107.07143em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_subnavigation\.scss}line{font-family:\0000357}}
+  #subnavigation {
+    width: 260px;
+    margin-left: 20px;
+  }
+}
+@media (min-width: 107.14286em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_subnavigation\.scss}line{font-family:\0000357}}
+  #subnavigation {
+    width: 340px;
+    margin-left: 40px;
+    margin-right: 10px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_subnavigation\.scss}line{font-family:\0000382}}
+#subnavigation_holder {
+  position: absolute;
+  width: 270px;
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_mixins\.scss}line{font-family:\000034}}
+#subnavigation_holder {
+  *zoom: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_mixins\.scss}line{font-family:\000038}}
+#subnavigation_holder:before, #subnavigation_holder:after {
+  content: "";
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_mixins\.scss}line{font-family:\0000312}}
+#subnavigation_holder:after {
+  clear: both;
+}
+
+@media (max-width: 39.21429em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_subnavigation\.scss}line{font-family:\0000390}}
+  #subnavigation_holder {
+    width: 90px;
+  }
+}
+@media (min-width: 39.21429em) and (max-width: 53.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_subnavigation\.scss}line{font-family:\0000390}}
+  #subnavigation_holder {
+    width: 290px;
+  }
+}
+@media (min-width: 53.5em) and (max-width: 85.64286em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_subnavigation\.scss}line{font-family:\0000390}}
+  #subnavigation_holder {
+    width: 290px;
+  }
+}
+@media (min-width: 85.64286em) and (max-width: 92.78571em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_subnavigation\.scss}line{font-family:\0000390}}
+  #subnavigation_holder {
+    width: 290px;
+  }
+}
+@media (min-width: 92.78571em) and (max-width: 107.07143em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_subnavigation\.scss}line{font-family:\0000390}}
+  #subnavigation_holder {
+    width: 320px;
+  }
+}
+@media (min-width: 107.14286em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_subnavigation\.scss}line{font-family:\0000390}}
+  #subnavigation_holder {
+    width: 400px;
+  }
+}
+
+@media (max-width: 39.21429em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_subnavigation\.scss}line{font-family:\00003101}}
+  .single-post #subnavigation_holder,
+  .page-template-default #subnavigation_holder {
+    width: 100%;
+    position: relative;
+    padding: 0 15px;
+  }
+}
+@media (min-width: 39.21429em) and (max-width: 53.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_subnavigation\.scss}line{font-family:\00003101}}
+  .single-post #subnavigation_holder,
+  .page-template-default #subnavigation_holder {
+    width: 100%;
+    position: relative;
+    padding: 0 15px;
+  }
+}
+@media (min-width: 53.5em) and (max-width: 85.64286em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_subnavigation\.scss}line{font-family:\00003101}}
+  .single-post #subnavigation_holder,
+  .page-template-default #subnavigation_holder {
+    width: 300px;
+  }
+}
+@media (min-width: 85.64286em) and (max-width: 92.78571em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_subnavigation\.scss}line{font-family:\00003101}}
+  .single-post #subnavigation_holder,
+  .page-template-default #subnavigation_holder {
+    width: 300px;
+  }
+}
+@media (min-width: 92.78571em) and (max-width: 107.07143em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_subnavigation\.scss}line{font-family:\00003101}}
+  .single-post #subnavigation_holder,
+  .page-template-default #subnavigation_holder {
+    width: 334px;
+  }
+}
+@media (min-width: 107.14286em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_subnavigation\.scss}line{font-family:\00003101}}
+  .single-post #subnavigation_holder,
+  .page-template-default #subnavigation_holder {
+    width: 419px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_subnavigation\.scss}line{font-family:\00003110}}
+.single-post #subnavigation,
+.page-template-default #subnavigation {
+  background-color: #e6e7e7;
+  text-align: right;
+  height: 100%;
+}
+@media (max-width: 39.21429em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_subnavigation\.scss}line{font-family:\00003110}}
+  .single-post #subnavigation,
+  .page-template-default #subnavigation {
+    width: 100%;
+  }
+}
+@media (min-width: 39.21429em) and (max-width: 53.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_subnavigation\.scss}line{font-family:\00003110}}
+  .single-post #subnavigation,
+  .page-template-default #subnavigation {
+    width: 100%;
+  }
+}
+@media (min-width: 53.5em) and (max-width: 85.64286em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_subnavigation\.scss}line{font-family:\00003110}}
+  .single-post #subnavigation,
+  .page-template-default #subnavigation {
+    width: 235px;
+    margin-left: 20px;
+    margin-right: 15px;
+  }
+}
+@media (min-width: 85.64286em) and (max-width: 92.78571em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_subnavigation\.scss}line{font-family:\00003110}}
+  .single-post #subnavigation,
+  .page-template-default #subnavigation {
+    width: 235px;
+    margin-left: 20px;
+    margin-right: 15px;
+  }
+}
+@media (min-width: 92.78571em) and (max-width: 107.07143em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_subnavigation\.scss}line{font-family:\00003110}}
+  .single-post #subnavigation,
+  .page-template-default #subnavigation {
+    width: 260px;
+    margin-left: 20px;
+  }
+}
+@media (min-width: 107.14286em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_subnavigation\.scss}line{font-family:\00003110}}
+  .single-post #subnavigation,
+  .page-template-default #subnavigation {
+    width: 340px;
+    margin-left: 40px;
+    margin-right: 10px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_subnavigation\.scss}line{font-family:\00003127}}
+.body_vertical #subnavigation {
+  background-color: #e6e7e7;
+  width: 60%;
+  height: 100%;
+  float: right;
+}
+@media only screen and (max-width: 320px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_subnavigation\.scss}line{font-family:\00003127}}
+  .body_vertical #subnavigation {
+    width: 100%;
+    height: 50%;
+    float: none;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 500px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_subnavigation\.scss}line{font-family:\00003127}}
+  .body_vertical #subnavigation {
+    width: 100%;
+    height: 50%;
+    float: none;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_subnavigation\.scss}line{font-family:\00003138}}
+.body_vertical #subnavigation_holder {
+  position: relative;
+  width: 100%;
+  padding: 0 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_subnavigation\.scss}line{font-family:\00003145}}
+.body_vertical #subnavigation_holder {
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_page_grid\.scss}line{font-family:\000031}}
+#page_grid {
+  height: 100%;
+  width: 100%;
+  background-color: #e6e7e7;
+}
+@media only screen and (max-width: 320px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_page_grid\.scss}line{font-family:\000031}}
+  #page_grid {
+    width: 100%;
+    height: 50%;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 650px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_page_grid\.scss}line{font-family:\000031}}
+  #page_grid {
+    width: 100%;
+    height: 50%;
+  }
+}
+
+@media (max-width: 39.21429em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_page_grid\.scss}line{font-family:\0000311}}
+  #page_grid {
+    margin-left: 105px;
+  }
+}
+@media (min-width: 39.21429em) and (max-width: 53.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_page_grid\.scss}line{font-family:\0000311}}
+  #page_grid {
+    margin-left: 300px;
+  }
+}
+@media (min-width: 53.5em) and (max-width: 85.64286em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_page_grid\.scss}line{font-family:\0000311}}
+  #page_grid {
+    margin-left: 295px;
+  }
+}
+@media (min-width: 85.64286em) and (max-width: 92.78571em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_page_grid\.scss}line{font-family:\0000311}}
+  #page_grid {
+    margin-left: 300px;
+  }
+}
+@media (min-width: 92.78571em) and (max-width: 107.07143em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_page_grid\.scss}line{font-family:\0000311}}
+  #page_grid {
+    margin-left: 335px;
+  }
+}
+@media (min-width: 107.14286em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_page_grid\.scss}line{font-family:\0000311}}
+  #page_grid {
+    margin-left: 420px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_page_grid\.scss}line{font-family:\0000324}}
+.single-post #page_grid,
+.page-template #page_grid,
+.page-template-default #page_grid {
+  width: auto;
+}
+@media (max-width: 39.21429em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_page_grid\.scss}line{font-family:\0000328}}
+  .single-post #page_grid,
+  .page-template #page_grid,
+  .page-template-default #page_grid {
+    margin-left: 0px;
+    padding: 0 15px;
+  }
+}
+@media (min-width: 39.21429em) and (max-width: 53.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_page_grid\.scss}line{font-family:\0000328}}
+  .single-post #page_grid,
+  .page-template #page_grid,
+  .page-template-default #page_grid {
+    margin-left: 0px;
+    padding: 0 15px;
+  }
+}
+@media (min-width: 53.5em) and (max-width: 85.64286em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_page_grid\.scss}line{font-family:\0000328}}
+  .single-post #page_grid,
+  .page-template #page_grid,
+  .page-template-default #page_grid {
+    margin-left: 300px;
+  }
+}
+@media (min-width: 85.64286em) and (max-width: 92.78571em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_page_grid\.scss}line{font-family:\0000328}}
+  .single-post #page_grid,
+  .page-template #page_grid,
+  .page-template-default #page_grid {
+    margin-left: 300px;
+  }
+}
+@media (min-width: 92.78571em) and (max-width: 107.07143em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_page_grid\.scss}line{font-family:\0000328}}
+  .single-post #page_grid,
+  .page-template #page_grid,
+  .page-template-default #page_grid {
+    margin-left: 334px;
+  }
+}
+@media (min-width: 107.14286em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_page_grid\.scss}line{font-family:\0000328}}
+  .single-post #page_grid,
+  .page-template #page_grid,
+  .page-template-default #page_grid {
+    margin-left: 419px;
+  }
+}
+
+@media (max-width: 39.21429em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_page_grid\.scss}line{font-family:\0000340}}
+  .body_horizontal .content_no_left_nav#page_grid {
+    margin-left: 15px;
+  }
+}
+@media (min-width: 39.21429em) and (max-width: 53.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_page_grid\.scss}line{font-family:\0000340}}
+  .body_horizontal .content_no_left_nav#page_grid {
+    margin-left: 15px;
+  }
+}
+@media (min-width: 53.5em) and (max-width: 85.64286em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_page_grid\.scss}line{font-family:\0000340}}
+  .body_horizontal .content_no_left_nav#page_grid {
+    margin-left: 20px;
+  }
+}
+@media (min-width: 85.64286em) and (max-width: 92.78571em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_page_grid\.scss}line{font-family:\0000340}}
+  .body_horizontal .content_no_left_nav#page_grid {
+    margin-left: 20px;
+  }
+}
+@media (min-width: 92.78571em) and (max-width: 107.07143em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_page_grid\.scss}line{font-family:\0000340}}
+  .body_horizontal .content_no_left_nav#page_grid {
+    margin-left: 20px;
+  }
+}
+@media (min-width: 107.14286em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_page_grid\.scss}line{font-family:\0000340}}
+  .body_horizontal .content_no_left_nav#page_grid {
+    margin-left: 40px;
+  }
+}
+
+/* Position relative Style */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/site_elements\/_page_grid\.scss}line{font-family:\0000357}}
+.body_vertical #page_grid {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: #e6e7e7;
+}
+
+/* Page Specific CSS*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/page_specific_css\/_single_default\.scss}line{font-family:\000035}}
+.single-post.body_horizontal,
+.page-template.body_horizontal,
+.page-template-default.body_horizontal {
+  overflow-y: auto;
+  overflow-x: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/page_specific_css\/_single_default\.scss}line{font-family:\0000311}}
+.single-post .entry-content,
+.single-post .entry-header,
+.page-template .entry-content,
+.page-template .entry-header,
+.page-template-default .entry-content,
+.page-template-default .entry-header {
+  max-width: 100%;
+}
+@media (min-width: 85.64286em) and (max-width: 92.78571em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/page_specific_css\/_single_default\.scss}line{font-family:\0000311}}
+  .single-post .entry-content,
+  .single-post .entry-header,
+  .page-template .entry-content,
+  .page-template .entry-header,
+  .page-template-default .entry-content,
+  .page-template-default .entry-header {
+    max-width: 892px;
+  }
+}
+@media (min-width: 92.78571em) and (max-width: 107.07143em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/page_specific_css\/_single_default\.scss}line{font-family:\0000311}}
+  .single-post .entry-content,
+  .single-post .entry-header,
+  .page-template .entry-content,
+  .page-template .entry-header,
+  .page-template-default .entry-content,
+  .page-template-default .entry-header {
+    max-width: 892px;
+  }
+}
+@media (min-width: 107.14286em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/page_specific_css\/_single_default\.scss}line{font-family:\0000311}}
+  .single-post .entry-content,
+  .single-post .entry-header,
+  .page-template .entry-content,
+  .page-template .entry-header,
+  .page-template-default .entry-content,
+  .page-template-default .entry-header {
+    max-width: 892px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/page_specific_css\/_single_default\.scss}line{font-family:\0000318}}
+.single-post .entry-header .post-image img,
+.page-template .entry-header .post-image img,
+.page-template-default .entry-header .post-image img {
+  width: 100%;
+}
+
+/*
+
+*/
+/* others */
+/* ELEMENT OF GRID */
+/* 	Purpose: styles for Grid elements with image and typo in it
+*	
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\000035}}
+.image_overlay {
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\0000321}}
+.w_2 h2.article_title {
+  font-size: 140%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\0000325}}
+.w_2 .image_overlay_left {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\0000329}}
+.w_2 .image_overlay_left_parent {
+  left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\0000333}}
+.w_2 .image_overlay_left_big {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\0000337}}
+.w_2 .image_overlay_left_big_parent {
+  left: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\0000343}}
+.w_3 h2.article_title {
+  font-size: 170%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\0000347}}
+.w_3 .image_overlay_left {
+  width: 33.7%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\0000351}}
+.w_3 .image_overlay_left_parent {
+  left: 33.7%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\0000355}}
+.w_3 .image_overlay_left_big {
+  width: 69.6%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\0000359}}
+.w_3 .image_overlay_left_big_parent {
+  left: 69.6%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\0000365}}
+.w_4 h2.article_title {
+  font-size: 170%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\0000369}}
+.w_4 .image_overlay_left {
+  width: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\0000373}}
+.w_4 .image_overlay_left_parent {
+  left: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\0000377}}
+.w_4 .image_overlay_left_big {
+  width: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\0000381}}
+.w_4 .image_overlay_left_big_parent {
+  left: 50%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\0000387}}
+.w_6 h2.article_title {
+  font-size: 170%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\0000391}}
+.w_6 .image_overlay_left {
+  width: 33.7%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\0000395}}
+.w_6 .image_overlay_left_parent {
+  left: 33.7%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\0000399}}
+.w_6 .image_overlay_left_big {
+  width: 69.6%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\00003103}}
+.w_6 .image_overlay_left_big_parent {
+  left: 69.6%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\00003109}}
+.w_8 h2.article_title {
+  font-size: 210%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\00003113}}
+.w_8 .image_overlay_left {
+  width: 25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\00003117}}
+.w_8 .image_overlay_left_parent {
+  left: 25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\00003121}}
+.w_8 .image_overlay_left_big {
+  width: 75%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\00003125}}
+.w_8 .image_overlay_left_big_parent {
+  left: 75%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\00003131}}
+.w_max h2.article_title {
+  font-size: 400%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\00003135}}
+.w_max .image_overlay_left_parent {
+  left: 25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\00003139}}
+.w_max .image_overlay_left {
+  width: 25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\00003143}}
+.w_max .image_overlay_left_big_parent {
+  left: 75%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\00003147}}
+.w_max .image_overlay_left_big {
+  width: 75%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\00003154}}
+.h_2 .image_overlay_top_parent {
+  top: 0%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\00003158}}
+.h_2 .image_overlay_top {
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\00003162}}
+.h_2 .image_overlay_top_big_parent {
+  top: 0%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\00003166}}
+.h_2 .image_overlay_top_big {
+  height: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\00003173}}
+.h_3 .image_overlay_top_parent {
+  top: 69.6%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\00003177}}
+.h_3 .image_overlay_top {
+  height: 69.6%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\00003181}}
+.h_3 .image_overlay_top_big_parent {
+  top: 33.7%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\00003185}}
+.h_3 .image_overlay_top_big {
+  height: 33.7%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\00003192}}
+.h_4 .image_overlay_top_parent {
+  top: 51.5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\00003196}}
+.h_4 .image_overlay_top {
+  height: 51.5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\00003200}}
+.h_4 .image_overlay_top_big_parent {
+  top: 69.6%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\00003204}}
+.h_4 .image_overlay_top_big {
+  height: 69.6%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\00003211}}
+.h_6 .image_overlay_top_parent {
+  top: 33.7%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\00003215}}
+.h_6 .image_overlay_top {
+  height: 33.7%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\00003219}}
+.h_6 .image_overlay_top_big_parent {
+  top: 69.6%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\00003223}}
+.h_6 .image_overlay_top_big {
+  height: 69.6%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\00003230}}
+.h_8 .image_overlay_top_parent {
+  top: 25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\00003234}}
+.h_8 .image_overlay_top {
+  height: 25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\00003238}}
+.h_8 .image_overlay_top_big_parent {
+  top: 75%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\00003242}}
+.h_8 .image_overlay_top_big {
+  height: 75%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\00003250}}
+.h_max .image_overlay_top_parent {
+  top: 25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\00003254}}
+.h_max .image_overlay_top {
+  height: 25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\00003258}}
+.h_max .image_overlay_top_big_parent {
+  top: 75%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_type_image_text\.scss}line{font-family:\00003262}}
+.h_max .image_overlay_top_big {
+  height: 75%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_elements\.scss}line{font-family:\000034}}
+.inner_content {
+  overflow: hidden;
+  word-wrap: break-word;
+  display: block;
+  position: absolute;
+  height: auto;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-right: 9px;
+  margin-left: 13px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_mixins\.scss}line{font-family:\000034}}
+.inner_content {
+  *zoom: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_mixins\.scss}line{font-family:\000038}}
+.inner_content:before, .inner_content:after {
+  content: "";
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_mixins\.scss}line{font-family:\0000312}}
+.inner_content:after {
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_elements\.scss}line{font-family:\0000324}}
+.inner_content {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_elements\.scss}line{font-family:\0000333}}
+.inner_element.background_turquoise_light {
+  background-color: #7E9197;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_elements\.scss}line{font-family:\0000337}}
+.inner_element.border_turquoise_light {
+  border-color: #7E9197;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_elements\.scss}line{font-family:\0000341}}
+.inner_element.background_turquoise_dark {
+  background-color: #1B4C51;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_elements\.scss}line{font-family:\0000345}}
+.inner_element.border_turquoise_dark {
+  border-color: #1B4C51;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_elements\.scss}line{font-family:\0000349}}
+.inner_element.background_gp_orange {
+  background-color: #F16522;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_elements\.scss}line{font-family:\0000353}}
+.inner_element.border_gp_orange {
+  border-color: #F16522;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_elements\.scss}line{font-family:\0000357}}
+.inner_element.background_gp_background_grey {
+  background-color: #E6E7E7;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_elements\.scss}line{font-family:\0000361}}
+.inner_element.border_gp_background_grey {
+  border-color: #E6E7E7;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_elements\.scss}line{font-family:\0000365}}
+.inner_element.background_white {
+  background-color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_elements\.scss}line{font-family:\0000369}}
+.inner_element.border_white {
+  border-color: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_elements\.scss}line{font-family:\0000377}}
+article.turquoise_light {
+  color: #7E9197;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_elements\.scss}line{font-family:\0000380}}
+article.turquoise_dark {
+  color: #1B4C51;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_elements\.scss}line{font-family:\0000383}}
+article.gp_orange {
+  color: #F16522;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_elements\.scss}line{font-family:\0000386}}
+article.gp_background_grey {
+  color: #E6E7E7;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_elements\.scss}line{font-family:\0000389}}
+article.white {
+  color: #FFFFFF;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_elements\.scss}line{font-family:\00003104}}
+.body_horizontal h2.article_title,
+.body_vertical h2.article_title {
+  font-size: 150%;
+  margin: 0px 0px 10px 0px;
+  color: #555;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_elements\.scss}line{font-family:\00003110}}
+.body_horizontal h2.article_title,
+.body_vertical h2.article_title {
+  margin-bottom: 0.7em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_elements\.scss}line{font-family:\00003114}}
+.body_horizontal h2.article_title:after,
+.body_vertical h2.article_title:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  display: block;
+  background: #7E9197;
+  width: 40px;
+  height: 3px;
+  margin-top: 0.2em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_elements\.scss}line{font-family:\00003126}}
+.body_horizontal h2.article_title.turquoise_light, .body_horizontal h2.article_title.turquoise_light a,
+.body_vertical h2.article_title.turquoise_light,
+.body_vertical h2.article_title.turquoise_light a {
+  color: #7E9197;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_elements\.scss}line{font-family:\00003127}}
+.body_horizontal h2.article_title.turquoise_light:after, .body_horizontal h2.article_title.turquoise_light a:after,
+.body_vertical h2.article_title.turquoise_light:after,
+.body_vertical h2.article_title.turquoise_light a:after {
+  background: #7E9197;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_elements\.scss}line{font-family:\00003133}}
+.body_horizontal h2.article_title.turquoise_dark, .body_horizontal h2.article_title.turquoise_dark a,
+.body_vertical h2.article_title.turquoise_dark,
+.body_vertical h2.article_title.turquoise_dark a {
+  color: #1B4C51;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_elements\.scss}line{font-family:\00003134}}
+.body_horizontal h2.article_title.turquoise_dark:after, .body_horizontal h2.article_title.turquoise_dark a:after,
+.body_vertical h2.article_title.turquoise_dark:after,
+.body_vertical h2.article_title.turquoise_dark a:after {
+  background: #1B4C51;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_elements\.scss}line{font-family:\00003140}}
+.body_horizontal h2.article_title.gp_orange, .body_horizontal h2.article_title.gp_orange a,
+.body_vertical h2.article_title.gp_orange,
+.body_vertical h2.article_title.gp_orange a {
+  color: #F16522;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_elements\.scss}line{font-family:\00003141}}
+.body_horizontal h2.article_title.gp_orange:after, .body_horizontal h2.article_title.gp_orange a:after,
+.body_vertical h2.article_title.gp_orange:after,
+.body_vertical h2.article_title.gp_orange a:after {
+  background: #F16522;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_elements\.scss}line{font-family:\00003147}}
+.body_horizontal h2.article_title.gp_background_grey, .body_horizontal h2.article_title.gp_background_grey a,
+.body_vertical h2.article_title.gp_background_grey,
+.body_vertical h2.article_title.gp_background_grey a {
+  color: #E6E7E7;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_elements\.scss}line{font-family:\00003148}}
+.body_horizontal h2.article_title.gp_background_grey:after, .body_horizontal h2.article_title.gp_background_grey a:after,
+.body_vertical h2.article_title.gp_background_grey:after,
+.body_vertical h2.article_title.gp_background_grey a:after {
+  background: #E6E7E7;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_elements\.scss}line{font-family:\00003154}}
+.body_horizontal h2.article_title.white, .body_horizontal h2.article_title.white a,
+.body_vertical h2.article_title.white,
+.body_vertical h2.article_title.white a {
+  color: #FFFFFF;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_elements\.scss}line{font-family:\00003155}}
+.body_horizontal h2.article_title.white:after, .body_horizontal h2.article_title.white a:after,
+.body_vertical h2.article_title.white:after,
+.body_vertical h2.article_title.white a:after {
+  background: #FFFFFF;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_elements\.scss}line{font-family:\00003163}}
+.body_horizontal .article_short,
+.body_vertical .article_short {
+  font-size: 15px;
+  font-style: italic;
+  line-height: 1.25em;
+  font-weight: 300;
+  margin: 0px 0px 15px 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_elements\.scss}line{font-family:\00003171}}
+.body_horizontal .article_full,
+.body_vertical .article_full {
+  margin: 0px 0px 10px 0px;
+}
+
+/* ONE Element Mixin */
+/* SIZE CALCULATION start */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid\.scss}line{font-family:\0000317}}
+.variable-sizes .element.width1 {
+  width: 110px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid\.scss}line{font-family:\0000321}}
+.variable-sizes .element.width2 {
+  width: 230px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid\.scss}line{font-family:\0000325}}
+.variable-sizes .element.width3 {
+  width: 350px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid\.scss}line{font-family:\0000329}}
+.variable-sizes .element.width4 {
+  width: 470px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid\.scss}line{font-family:\0000333}}
+.variable-sizes .element.width5 {
+  width: 590px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid\.scss}line{font-family:\0000337}}
+.variable-sizes .element.width1 {
+  height: 110px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid\.scss}line{font-family:\0000341}}
+.variable-sizes .element.width2 {
+  height: 230px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid\.scss}line{font-family:\0000345}}
+.variable-sizes .element.width3 {
+  height: 350px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid\.scss}line{font-family:\0000349}}
+.variable-sizes .element.width4 {
+  height: 470px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid\.scss}line{font-family:\0000353}}
+.variable-sizes .element.width5 {
+  height: 590px;
+}
+
+/* SIZE CALCULATION end */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000334}}
+article.grey_back_turquoise {
+  color: #1b4c51;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000312}}
+article.grey_back_turquoise .inner_element {
+  background-color: #e6e7e7;
+  border-color: #1b4c51;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000315}}
+article.grey_back_turquoise .inner_element h2.article_title {
+  color: #1b4c51;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000317}}
+article.grey_back_turquoise .inner_element h2.article_title a {
+  color: #1b4c51;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000320}}
+article.grey_back_turquoise .inner_element h2.article_title a:hover {
+  color: #2e828a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000323}}
+article.grey_back_turquoise .inner_element h2.article_title:after {
+  background: #1b4c51;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000326}}
+article.grey_back_turquoise .inner_element h2.article_title:hover {
+  color: #2e828a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000338}}
+article.grey_back_orange {
+  color: #f16522;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000312}}
+article.grey_back_orange .inner_element {
+  background-color: #e6e7e7;
+  border-color: #f16522;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000315}}
+article.grey_back_orange .inner_element h2.article_title {
+  color: #f16522;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000317}}
+article.grey_back_orange .inner_element h2.article_title a {
+  color: #f16522;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000320}}
+article.grey_back_orange .inner_element h2.article_title a:hover {
+  color: #f6976a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000323}}
+article.grey_back_orange .inner_element h2.article_title:after {
+  background: #f16522;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000326}}
+article.grey_back_orange .inner_element h2.article_title:hover {
+  color: #f6976a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000342}}
+article.orange_back_white {
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000312}}
+article.orange_back_white .inner_element {
+  background-color: #f16522;
+  border-color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000315}}
+article.orange_back_white .inner_element h2.article_title {
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000317}}
+article.orange_back_white .inner_element h2.article_title a {
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000320}}
+article.orange_back_white .inner_element h2.article_title a:hover {
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000323}}
+article.orange_back_white .inner_element h2.article_title:after {
+  background: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000326}}
+article.orange_back_white .inner_element h2.article_title:hover {
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000346}}
+article.turquoise_back_white {
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000312}}
+article.turquoise_back_white .inner_element {
+  background-color: #1b4c51;
+  border-color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000315}}
+article.turquoise_back_white .inner_element h2.article_title {
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000317}}
+article.turquoise_back_white .inner_element h2.article_title a {
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000320}}
+article.turquoise_back_white .inner_element h2.article_title a:hover {
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000323}}
+article.turquoise_back_white .inner_element h2.article_title:after {
+  background: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000326}}
+article.turquoise_back_white .inner_element h2.article_title:hover {
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000350}}
+article.turquoise_light_back_white {
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000312}}
+article.turquoise_light_back_white .inner_element {
+  background-color: #7e9197;
+  border-color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000315}}
+article.turquoise_light_back_white .inner_element h2.article_title {
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000317}}
+article.turquoise_light_back_white .inner_element h2.article_title a {
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000320}}
+article.turquoise_light_back_white .inner_element h2.article_title a:hover {
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000323}}
+article.turquoise_light_back_white .inner_element h2.article_title:after {
+  background: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000326}}
+article.turquoise_light_back_white .inner_element h2.article_title:hover {
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000354}}
+article.turquoise_light_back_dark {
+  color: #1b4c51;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000312}}
+article.turquoise_light_back_dark .inner_element {
+  background-color: #7e9197;
+  border-color: #1b4c51;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000315}}
+article.turquoise_light_back_dark .inner_element h2.article_title {
+  color: #1b4c51;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000317}}
+article.turquoise_light_back_dark .inner_element h2.article_title a {
+  color: #1b4c51;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000320}}
+article.turquoise_light_back_dark .inner_element h2.article_title a:hover {
+  color: #2e828a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000323}}
+article.turquoise_light_back_dark .inner_element h2.article_title:after {
+  background: #1b4c51;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000326}}
+article.turquoise_light_back_dark .inner_element h2.article_title:hover {
+  color: #2e828a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000358}}
+article.white_back_turquoise {
+  color: #1b4c51;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000312}}
+article.white_back_turquoise .inner_element {
+  background-color: white;
+  border-color: #1b4c51;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000315}}
+article.white_back_turquoise .inner_element h2.article_title {
+  color: #1b4c51;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000317}}
+article.white_back_turquoise .inner_element h2.article_title a {
+  color: #1b4c51;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000320}}
+article.white_back_turquoise .inner_element h2.article_title a:hover {
+  color: #2e828a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000323}}
+article.white_back_turquoise .inner_element h2.article_title:after {
+  background: #1b4c51;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000326}}
+article.white_back_turquoise .inner_element h2.article_title:hover {
+  color: #2e828a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000362}}
+article.white_back_orange {
+  color: #f16522;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000312}}
+article.white_back_orange .inner_element {
+  background-color: white;
+  border-color: #f16522;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000315}}
+article.white_back_orange .inner_element h2.article_title {
+  color: #f16522;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000317}}
+article.white_back_orange .inner_element h2.article_title a {
+  color: #f16522;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000320}}
+article.white_back_orange .inner_element h2.article_title a:hover {
+  color: #f6976a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000323}}
+article.white_back_orange .inner_element h2.article_title:after {
+  background: #f16522;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_grid_element_styles\.scss}line{font-family:\0000326}}
+article.white_back_orange .inner_element h2.article_title:hover {
+  color: #f6976a;
+}
+
+/* 	Purpose: button styles
+*	Dependencies: sassy-buttons
+*
+*
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_buttons\.scss}line{font-family:\0000327}}
+.entry-content button.orange, .entry-content button.button-orange,
+.entry-content a.orange,
+.entry-content a.button-orange {
+  font-size: 13px;
+  padding: 0.5em 1.5em;
+  color: white;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFF16522', endColorstr='#FFA33C0A');
+  background-color: #f16522;
+  border: 0;
+  border-color: #fff;
+  text-shadow: none;
+  font-weight: 400;
+  border: 1px solid;
+  font-size: 15px;
+  font-size: 15px;
+  padding: 6px 10px;
+  color: white;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\0000315}}
+.entry-content button.orange:hover, .entry-content button.button-orange:hover,
+.entry-content a.orange:hover,
+.entry-content a.button-orange:hover {
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\0000342}}
+.entry-content button.orange:hover, .entry-content button.button-orange:hover,
+.entry-content a.orange:hover,
+.entry-content a.button-orange:hover {
+  background-color: #eb560f;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\0000344}}
+.entry-content button.orange:active, .entry-content button.button-orange:active,
+.entry-content a.orange:active,
+.entry-content a.button-orange:active {
+  background-color: #dc510e;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\000036}}
+.entry-content button.orange.disabled, .entry-content button.orange[disabled], .entry-content button.button-orange.disabled, .entry-content button.button-orange[disabled],
+.entry-content a.orange.disabled,
+.entry-content a.orange[disabled],
+.entry-content a.button-orange.disabled,
+.entry-content a.button-orange[disabled] {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+  background: false;
+  cursor: default;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/_sassy-buttons\.sass}line{font-family:\0000376}}
+.entry-content button.orange::-moz-focus-inner, .entry-content button.button-orange::-moz-focus-inner,
+.entry-content a.orange::-moz-focus-inner,
+.entry-content a.button-orange::-moz-focus-inner {
+  padding: 0 !important;
+  margin: -1px !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_buttons\.scss}line{font-family:\0000335}}
+.entry-content button.orange_text,
+.entry-content a.orange_text {
+  font-size: 13px;
+  padding: 0.5em 1.5em;
+  color: #f16522;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFFFFF', endColorstr='#FFCCCCCC');
+  background-color: white;
+  border: 0;
+  font-style: italic;
+  text-shadow: none;
+  font-weight: 400;
+  border: 1px solid;
+  font-size: 15px;
+  font-size: 15px;
+  padding: 0px 2px;
+  color: #f16522;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  font-weight: 600;
+  border-color: transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\0000315}}
+.entry-content button.orange_text:hover,
+.entry-content a.orange_text:hover {
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\0000342}}
+.entry-content button.orange_text:hover,
+.entry-content a.orange_text:hover {
+  background-color: #f2f2f2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\0000344}}
+.entry-content button.orange_text:active,
+.entry-content a.orange_text:active {
+  background-color: #ebebeb;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\000036}}
+.entry-content button.orange_text.disabled, .entry-content button.orange_text[disabled],
+.entry-content a.orange_text.disabled,
+.entry-content a.orange_text[disabled] {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+  background: false;
+  cursor: default;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/_sassy-buttons\.sass}line{font-family:\0000376}}
+.entry-content button.orange_text::-moz-focus-inner,
+.entry-content a.orange_text::-moz-focus-inner {
+  padding: 0 !important;
+  margin: -1px !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_buttons\.scss}line{font-family:\0000343}}
+.entry-content button.orange_text:hover,
+.entry-content a.orange_text:hover {
+  background-color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_buttons\.scss}line{font-family:\0000349}}
+.entry-content button.turquoise, .entry-content button.button-turquoise,
+.entry-content a.turquoise,
+.entry-content a.button-turquoise {
+  font-size: 13px;
+  padding: 0.5em 1.5em;
+  color: white;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF1B4C51', endColorstr='#FF010404');
+  background-color: #1b4c51;
+  border: 0;
+  border-color: #fff;
+  text-shadow: none;
+  font-weight: 400;
+  border: 1px solid;
+  font-size: 15px;
+  font-size: 15px;
+  padding: 6px 10px;
+  color: white;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\0000315}}
+.entry-content button.turquoise:hover, .entry-content button.button-turquoise:hover,
+.entry-content a.turquoise:hover,
+.entry-content a.button-turquoise:hover {
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\0000342}}
+.entry-content button.turquoise:hover, .entry-content button.button-turquoise:hover,
+.entry-content a.turquoise:hover,
+.entry-content a.button-turquoise:hover {
+  background-color: #153a3e;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\0000344}}
+.entry-content button.turquoise:active, .entry-content button.button-turquoise:active,
+.entry-content a.turquoise:active,
+.entry-content a.button-turquoise:active {
+  background-color: #112f32;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\000036}}
+.entry-content button.turquoise.disabled, .entry-content button.turquoise[disabled], .entry-content button.button-turquoise.disabled, .entry-content button.button-turquoise[disabled],
+.entry-content a.turquoise.disabled,
+.entry-content a.turquoise[disabled],
+.entry-content a.button-turquoise.disabled,
+.entry-content a.button-turquoise[disabled] {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+  background: false;
+  cursor: default;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/_sassy-buttons\.sass}line{font-family:\0000376}}
+.entry-content button.turquoise::-moz-focus-inner, .entry-content button.button-turquoise::-moz-focus-inner,
+.entry-content a.turquoise::-moz-focus-inner,
+.entry-content a.button-turquoise::-moz-focus-inner {
+  padding: 0 !important;
+  margin: -1px !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_buttons\.scss}line{font-family:\0000358}}
+.entry-content button.gp_background, .entry-content button.button-gp_background,
+.entry-content a.gp_background,
+.entry-content a.button-gp_background {
+  font-size: 13px;
+  padding: 0.5em 1.5em;
+  color: #1b4c51;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFE6E7E7', endColorstr='#FFB2B5B5');
+  background-color: #e6e7e7;
+  border: 0;
+  border-color: #1B4C51;
+  text-shadow: none;
+  font-weight: 400;
+  border: 1px solid;
+  font-size: 15px;
+  font-size: 15px;
+  padding: 6px 10px;
+  color: #1b4c51;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\0000315}}
+.entry-content button.gp_background:hover, .entry-content button.button-gp_background:hover,
+.entry-content a.gp_background:hover,
+.entry-content a.button-gp_background:hover {
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\0000342}}
+.entry-content button.gp_background:hover, .entry-content button.button-gp_background:hover,
+.entry-content a.gp_background:hover,
+.entry-content a.button-gp_background:hover {
+  background-color: #d9dbdb;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\0000344}}
+.entry-content button.gp_background:active, .entry-content button.button-gp_background:active,
+.entry-content a.gp_background:active,
+.entry-content a.button-gp_background:active {
+  background-color: #d1d3d3;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\000036}}
+.entry-content button.gp_background.disabled, .entry-content button.gp_background[disabled], .entry-content button.button-gp_background.disabled, .entry-content button.button-gp_background[disabled],
+.entry-content a.gp_background.disabled,
+.entry-content a.gp_background[disabled],
+.entry-content a.button-gp_background.disabled,
+.entry-content a.button-gp_background[disabled] {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+  background: false;
+  cursor: default;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/_sassy-buttons\.sass}line{font-family:\0000376}}
+.entry-content button.gp_background::-moz-focus-inner, .entry-content button.button-gp_background::-moz-focus-inner,
+.entry-content a.gp_background::-moz-focus-inner,
+.entry-content a.button-gp_background::-moz-focus-inner {
+  padding: 0 !important;
+  margin: -1px !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_buttons\.scss}line{font-family:\0000367}}
+.entry-content button.white, .entry-content button.button-white,
+.entry-content a.white,
+.entry-content a.button-white {
+  font-size: 13px;
+  padding: 0.5em 1.5em;
+  color: #1b4c51;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFFFFF', endColorstr='#FFCCCCCC');
+  background-color: white;
+  border: 0;
+  border-color: #E6E7E7;
+  text-shadow: none;
+  font-weight: 400;
+  border: 1px solid;
+  font-size: 15px;
+  font-size: 15px;
+  padding: 6px 10px;
+  color: #1b4c51;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\0000315}}
+.entry-content button.white:hover, .entry-content button.button-white:hover,
+.entry-content a.white:hover,
+.entry-content a.button-white:hover {
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\0000342}}
+.entry-content button.white:hover, .entry-content button.button-white:hover,
+.entry-content a.white:hover,
+.entry-content a.button-white:hover {
+  background-color: #f2f2f2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\0000344}}
+.entry-content button.white:active, .entry-content button.button-white:active,
+.entry-content a.white:active,
+.entry-content a.button-white:active {
+  background-color: #ebebeb;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\000036}}
+.entry-content button.white.disabled, .entry-content button.white[disabled], .entry-content button.button-white.disabled, .entry-content button.button-white[disabled],
+.entry-content a.white.disabled,
+.entry-content a.white[disabled],
+.entry-content a.button-white.disabled,
+.entry-content a.button-white[disabled] {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+  background: false;
+  cursor: default;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/_sassy-buttons\.sass}line{font-family:\0000376}}
+.entry-content button.white::-moz-focus-inner, .entry-content button.button-white::-moz-focus-inner,
+.entry-content a.white::-moz-focus-inner,
+.entry-content a.button-white::-moz-focus-inner {
+  padding: 0 !important;
+  margin: -1px !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_buttons\.scss}line{font-family:\0000382}}
+button.orange, button.button-orange,
+a.orange,
+a.button-orange {
+  font-size: 13px;
+  padding: 0.5em 1.5em;
+  color: white;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFF16522', endColorstr='#FFA33C0A');
+  background-color: #f16522;
+  border: 0;
+  border-color: #fff;
+  text-shadow: none;
+  font-weight: 400;
+  border: 1px solid;
+  font-size: 15px;
+  font-size: 15px;
+  padding: 6px 10px;
+  color: white;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\0000315}}
+button.orange:hover, button.button-orange:hover,
+a.orange:hover,
+a.button-orange:hover {
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\0000342}}
+button.orange:hover, button.button-orange:hover,
+a.orange:hover,
+a.button-orange:hover {
+  background-color: #eb560f;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\0000344}}
+button.orange:active, button.button-orange:active,
+a.orange:active,
+a.button-orange:active {
+  background-color: #dc510e;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\000036}}
+button.orange.disabled, button.orange[disabled], button.button-orange.disabled, button.button-orange[disabled],
+a.orange.disabled,
+a.orange[disabled],
+a.button-orange.disabled,
+a.button-orange[disabled] {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+  background: false;
+  cursor: default;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/_sassy-buttons\.sass}line{font-family:\0000376}}
+button.orange::-moz-focus-inner, button.button-orange::-moz-focus-inner,
+a.orange::-moz-focus-inner,
+a.button-orange::-moz-focus-inner {
+  padding: 0 !important;
+  margin: -1px !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_buttons\.scss}line{font-family:\0000390}}
+button.orange_text,
+a.orange_text {
+  color: #F16522;
+  text-shadow: none;
+  font-weight: 400;
+  border: 1px solid;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 600;
+  border-color: transparent;
+  background-color: transparent;
+  padding: 6px 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_buttons\.scss}line{font-family:\0000395}}
+button.white_text,
+a.white_text {
+  color: #FFFFFF;
+  text-shadow: none;
+  font-weight: 400;
+  border: 1px solid;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 600;
+  border-color: transparent;
+  background-color: transparent;
+  padding: 6px 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_buttons\.scss}line{font-family:\00003100}}
+button.turqoise_dark_text,
+a.turqoise_dark_text {
+  color: #1B4C51;
+  text-shadow: none;
+  font-weight: 400;
+  border: 1px solid;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 600;
+  border-color: transparent;
+  background-color: transparent;
+  padding: 6px 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_buttons\.scss}line{font-family:\00003105}}
+button.turqoise_light_text,
+a.turqoise_light_text {
+  color: #7E9197;
+  text-shadow: none;
+  font-weight: 400;
+  border: 1px solid;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 600;
+  border-color: transparent;
+  background-color: transparent;
+  padding: 6px 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_buttons\.scss}line{font-family:\00003111}}
+button.turquoise, button.button-turquoise,
+a.turquoise,
+a.button-turquoise {
+  font-size: 13px;
+  padding: 0.5em 1.5em;
+  color: white;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF1B4C51', endColorstr='#FF010404');
+  background-color: #1b4c51;
+  border: 0;
+  border-color: #fff;
+  text-shadow: none;
+  font-weight: 400;
+  border: 1px solid;
+  font-size: 15px;
+  font-size: 15px;
+  padding: 6px 10px;
+  color: white;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\0000315}}
+button.turquoise:hover, button.button-turquoise:hover,
+a.turquoise:hover,
+a.button-turquoise:hover {
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\0000342}}
+button.turquoise:hover, button.button-turquoise:hover,
+a.turquoise:hover,
+a.button-turquoise:hover {
+  background-color: #153a3e;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\0000344}}
+button.turquoise:active, button.button-turquoise:active,
+a.turquoise:active,
+a.button-turquoise:active {
+  background-color: #112f32;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\000036}}
+button.turquoise.disabled, button.turquoise[disabled], button.button-turquoise.disabled, button.button-turquoise[disabled],
+a.turquoise.disabled,
+a.turquoise[disabled],
+a.button-turquoise.disabled,
+a.button-turquoise[disabled] {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+  background: false;
+  cursor: default;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/_sassy-buttons\.sass}line{font-family:\0000376}}
+button.turquoise::-moz-focus-inner, button.button-turquoise::-moz-focus-inner,
+a.turquoise::-moz-focus-inner,
+a.button-turquoise::-moz-focus-inner {
+  padding: 0 !important;
+  margin: -1px !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_buttons\.scss}line{font-family:\00003120}}
+button.gp_background, button.button-gp_background,
+a.gp_background,
+a.button-gp_background {
+  font-size: 13px;
+  padding: 0.5em 1.5em;
+  color: #1b4c51;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFE6E7E7', endColorstr='#FFB2B5B5');
+  background-color: #e6e7e7;
+  border: 0;
+  border-color: #1B4C51;
+  text-shadow: none;
+  font-weight: 400;
+  border: 1px solid;
+  font-size: 15px;
+  font-size: 15px;
+  padding: 6px 10px;
+  color: #1b4c51;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\0000315}}
+button.gp_background:hover, button.button-gp_background:hover,
+a.gp_background:hover,
+a.button-gp_background:hover {
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\0000342}}
+button.gp_background:hover, button.button-gp_background:hover,
+a.gp_background:hover,
+a.button-gp_background:hover {
+  background-color: #d9dbdb;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\0000344}}
+button.gp_background:active, button.button-gp_background:active,
+a.gp_background:active,
+a.button-gp_background:active {
+  background-color: #d1d3d3;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\000036}}
+button.gp_background.disabled, button.gp_background[disabled], button.button-gp_background.disabled, button.button-gp_background[disabled],
+a.gp_background.disabled,
+a.gp_background[disabled],
+a.button-gp_background.disabled,
+a.button-gp_background[disabled] {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+  background: false;
+  cursor: default;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/_sassy-buttons\.sass}line{font-family:\0000376}}
+button.gp_background::-moz-focus-inner, button.button-gp_background::-moz-focus-inner,
+a.gp_background::-moz-focus-inner,
+a.button-gp_background::-moz-focus-inner {
+  padding: 0 !important;
+  margin: -1px !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_buttons\.scss}line{font-family:\00003129}}
+button.white, button.button-white,
+a.white,
+a.button-white {
+  font-size: 13px;
+  padding: 0.5em 1.5em;
+  color: #1b4c51;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFFFFF', endColorstr='#FFCCCCCC');
+  background-color: white;
+  border: 0;
+  border-color: #E6E7E7;
+  text-shadow: none;
+  font-weight: 400;
+  border: 1px solid;
+  font-size: 15px;
+  font-size: 15px;
+  padding: 6px 10px;
+  color: #1b4c51;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\0000315}}
+button.white:hover, button.button-white:hover,
+a.white:hover,
+a.button-white:hover {
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\0000342}}
+button.white:hover, button.button-white:hover,
+a.white:hover,
+a.button-white:hover {
+  background-color: #f2f2f2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\0000344}}
+button.white:active, button.button-white:active,
+a.white:active,
+a.button-white:active {
+  background-color: #ebebeb;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\000036}}
+button.white.disabled, button.white[disabled], button.button-white.disabled, button.button-white[disabled],
+a.white.disabled,
+a.white[disabled],
+a.button-white.disabled,
+a.button-white[disabled] {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+  background: false;
+  cursor: default;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/_sassy-buttons\.sass}line{font-family:\0000376}}
+button.white::-moz-focus-inner, button.button-white::-moz-focus-inner,
+a.white::-moz-focus-inner,
+a.button-white::-moz-focus-inner {
+  padding: 0 !important;
+  margin: -1px !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/grid_elements\/_buttons\.scss}line{font-family:\00003140}}
+button.white_orange_text, button.button-white_orange_text,
+a.white_orange_text,
+a.button-white_orange_text {
+  font-size: 13px;
+  padding: 0.5em 1.5em;
+  color: #f16522;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFFFFF', endColorstr='#FFCCCCCC');
+  background-color: white;
+  border: 0;
+  border-color: #F16522;
+  text-shadow: none;
+  font-weight: 400;
+  border: 1px solid;
+  font-size: 15px;
+  font-size: 15px;
+  padding: 6px 10px;
+  color: #f16522;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\0000315}}
+button.white_orange_text:hover, button.button-white_orange_text:hover,
+a.white_orange_text:hover,
+a.button-white_orange_text:hover {
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\0000342}}
+button.white_orange_text:hover, button.button-white_orange_text:hover,
+a.white_orange_text:hover,
+a.button-white_orange_text:hover {
+  background-color: #f2f2f2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\0000344}}
+button.white_orange_text:active, button.button-white_orange_text:active,
+a.white_orange_text:active,
+a.button-white_orange_text:active {
+  background-color: #ebebeb;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/sassy-buttons\/_sassy-button-pseudo-states\.sass}line{font-family:\000036}}
+button.white_orange_text.disabled, button.white_orange_text[disabled], button.button-white_orange_text.disabled, button.button-white_orange_text[disabled],
+a.white_orange_text.disabled,
+a.white_orange_text[disabled],
+a.button-white_orange_text.disabled,
+a.button-white_orange_text[disabled] {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+  background: false;
+  cursor: default;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/sassy-buttons-0\.2\/stylesheets\/_sassy-buttons\.sass}line{font-family:\0000376}}
+button.white_orange_text::-moz-focus-inner, button.button-white_orange_text::-moz-focus-inner,
+a.white_orange_text::-moz-focus-inner,
+a.button-white_orange_text::-moz-focus-inner {
+  padding: 0 !important;
+  margin: -1px !important;
+}
+
+/* Main Elements */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_main\.scss}line{font-family:\000037}}
+html, body {
+  overflow: visible;
+  font-size: 100%;
+  font-family: "proxima-nova", sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_main\.scss}line{font-family:\0000313}}
+body {
+  background: #E6E7E7;
+  word-wrap: break-word;
+}
+
+@font-face {
+  font-family: 'extra-icon';
+  src: url("../fonts/extra-icon.eot");
+  src: url("../fonts/extra-icon.eot?#iefix") format("embedded-opentype"), url("../fonts/extra-icon.woff") format("woff"), url("../fonts/extra-icon.ttf") format("truetype"), url("../fonts/extra-icon.svg#extra-icon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_main\.scss}line{font-family:\0000330}}
+h1 {
+  color: #1c4c51;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_main\.scss}line{font-family:\0000334}}
+h2 {
+  font-size: 25px;
+  margin: 0 0 20px 0;
+  line-height: 1.2em;
+  font-weight: 400;
+  color: #1c4c51;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_main\.scss}line{font-family:\0000344}}
+.entry_content h2 {
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 1.3em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_main\.scss}line{font-family:\0000350}}
+.entry_content h2:first-child {
+  margin-top: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_main\.scss}line{font-family:\0000355}}
+.entry_content p {
+  line-height: 1.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_main\.scss}line{font-family:\0000378}}
+#grid_content ul {
+  list-style-position: inside;
+  padding-left: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_main\.scss}line{font-family:\0000385}}
+#grid_content ul li {
+  list-style-type: none;
+  padding: 0;
+  padding-bottom: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_main\.scss}line{font-family:\0000390}}
+#grid_content ul li:before {
+  font-family: 'extra-icon';
+  content: "\2c";
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  padding-right: 15px;
+  padding-left: 0px;
+  font-size: 10px;
+  text-align: left;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_main\.scss}line{font-family:\00003108}}
+#grid_content ul li:before, #grid_content ul li:after {
+  color: #f16522;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_main\.scss}line{font-family:\00003113}}
+#grid_content .tabs li:before {
+  content: "";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_main\.scss}line{font-family:\00003122}}
+#grid_content {
+  margin-left: 0px;
+  background-color: #e6e7e7;
+  display: block;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_mixins\.scss}line{font-family:\000034}}
+#grid_content {
+  *zoom: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_mixins\.scss}line{font-family:\000038}}
+#grid_content:before, #grid_content:after {
+  content: "";
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_mixins\.scss}line{font-family:\0000312}}
+#grid_content:after {
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_main\.scss}line{font-family:\00003131}}
+.body_horizontal {
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_main\.scss}line{font-family:\00003137}}
+.body_vertical {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_custom\.scss}line{font-family:\000032}}
+.entry-content > :first-child {
+  margin-top: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_custom\.scss}line{font-family:\000033}}
+.entry-content {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_custom\.scss}line{font-family:\000037}}
+.widget a {
+  line-height: 140%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_custom\.scss}line{font-family:\0000313}}
+.iphorm-elements .iphorm-element-wrap-text input,
+.iphorm-elements .iphorm-element-wrap-captcha input,
+.iphorm-elements .iphorm-element-wrap-password input {
+  line-height: 2;
+  width: 433px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_custom\.scss}line{font-family:\0000318}}
+.aside-content {
+  float: right;
+  font: 300 21px/29px "proxima-nova", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, arial, sans-serif;
+  width: 44%;
+  position: relative;
+  margin: 0 -47.85% 0 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_custom\.scss}line{font-family:\0000327}}
+.widget .current_page_item > a,
+.widget li a.active, .widget .current-cat a {
+  color: #111;
+  padding-bottom: 2px;
+  border-bottom: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_custom\.scss}line{font-family:\0000335}}
+.widget .current_page_item > a,
+.widget li a.active,
+.widget .current-cat a {
+  color: #F16522;
+  padding-bottom: 2px;
+  border-bottom: none;
+  background-color: white;
+  padding: 0px 0px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_custom\.scss}line{font-family:\0000343}}
+.page .entry-content {
+  margin: 0 0 0 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_custom\.scss}line{font-family:\0000347}}
+.single-post #grid_content .widget {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_custom\.scss}line{font-family:\0000353}}
+.widget .current_page_item > a,
+.widget li a.active,
+.widget .current-cat a {
+  color: #F16522;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #F16522;
+  background-color: white;
+  padding: 2px 5px;
+}
+
+/**** Isotope styles ****/
+/* required for containers to inherit vertical size from window */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_base\.scss}line{font-family:\000035}}
+html,
+body {
+  height: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_base\.scss}line{font-family:\000039}}
+#container {
+  border: 1px solid #666;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+/* Color shapes */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_colorshapes\.scss}line{font-family:\000033}}
+.color-shape {
+  width: 70px;
+  height: 70px;
+  margin: 5px;
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_colorshapes\.scss}line{font-family:\0000310}}
+.color-shape.round {
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_colorshapes\.scss}line{font-family:\0000316}}
+.color-shape.big.round {
+  -webkit-border-radius: 75px;
+  -moz-border-radius: 75px;
+  border-radius: 75px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_colorshapes\.scss}line{font-family:\0000326}}
+.color-shape.wide, .color-shape.big {
+  width: 150px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_colorshapes\.scss}line{font-family:\0000327}}
+.color-shape.tall, .color-shape.big {
+  height: 150px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_colorshapes\.scss}line{font-family:\0000329}}
+.color-shape a {
+  display: block;
+  height: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_colorshapes\.scss}line{font-family:\0000334}}
+.color-shape a:hover {
+  background: white;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_elements\.scss}line{font-family:\000031}}
+.element {
+  width: 110px;
+  height: 110px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_elements\.scss}line{font-family:\0000312}}
+.inner_element {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  position: relative;
+  box-sizing: border-box;
+  border-style: solid;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_elements\.scss}line{font-family:\0000323}}
+.inner_element.shadow {
+  box-shadow: 1px 1px 5px 1px rgba(135, 135, 135, 0.6);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_elements\.scss}line{font-family:\0000328}}
+.inner_element.inner_element_border {
+  border-width: 2px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_elements\.scss}line{font-family:\0000334}}
+article .inner_element.inner_element_no_border {
+  border-width: 0px;
+  border-color: transparent;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_elements\.scss}line{font-family:\0000350}}
+.inner_element.alkali {
+  background: #ff8dcc;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_elements\.scss}line{font-family:\0000351}}
+.inner_element.alkaline-earth {
+  background: #ff8dcc;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_elements\.scss}line{font-family:\0000352}}
+.inner_element.lanthanoid {
+  background: #ff8dcc;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_elements\.scss}line{font-family:\0000353}}
+.inner_element.actinoid {
+  background: #ff8dcc;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_elements\.scss}line{font-family:\0000354}}
+.inner_element.transition {
+  background: #ff8dcc;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_elements\.scss}line{font-family:\0000355}}
+.inner_element.post-transition {
+  background: #ff8dcc;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_elements\.scss}line{font-family:\0000356}}
+.inner_element.metalloid {
+  background: #ff8dcc;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_elements\.scss}line{font-family:\0000357}}
+.inner_element.other.nonmetal {
+  background: #ff8dcc;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_elements\.scss}line{font-family:\0000358}}
+.inner_element.halogen {
+  background: #ff8dcc;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_elements\.scss}line{font-family:\0000359}}
+.inner_element.noble-gas {
+  background: #ff8dcc;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_elements\.scss}line{font-family:\0000363}}
+.inner_element {
+  position: absolute;
+  opacity: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_elements\.scss}line{font-family:\0000370}}
+.element .symbol {
+  left: 0.2em;
+  top: 0.4em;
+  font-size: 2.0em;
+  line-height: 1.0em;
+  color: #FFF;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_elements\.scss}line{font-family:\0000377}}
+.element.large .symbol {
+  font-size: 4.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_elements\.scss}line{font-family:\0000381}}
+.element.fake .symbol {
+  color: #000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_elements\.scss}line{font-family:\0000385}}
+.element .name {
+  left: 0.5em;
+  bottom: 1.6em;
+  font-size: 1.05em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_elements\.scss}line{font-family:\0000391}}
+.element .weight {
+  font-size: 0.9em;
+  left: 0.5em;
+  bottom: 0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_elements\.scss}line{font-family:\0000397}}
+.element .number {
+  font-size: 0.55em;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.5);
+  right: 0.5em;
+  bottom: 0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_elements\.scss}line{font-family:\00003105}}
+.variable-sizes .element.width2 {
+  width: 230px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_elements\.scss}line{font-family:\00003107}}
+.variable-sizes .element.height2 {
+  height: 230px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_elements\.scss}line{font-family:\00003109}}
+.variable-sizes .element.width2.height2 {
+  font-size: 2.0em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_elements\.scss}line{font-family:\00003115}}
+.element.large,
+.variable-sizes .element.large,
+.variable-sizes .element.large.width2.height2 {
+  font-size: 3.0em;
+  width: 350px;
+  height: 350px;
+  z-index: 100;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_elements\.scss}line{font-family:\00003122}}
+.clickable .element:hover {
+  cursor: pointer;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_elements\.scss}line{font-family:\00003126}}
+.clickable .element:hover h3 {
+  text-shadow: 0 0 10px white, 0 0 10px white;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_elements\.scss}line{font-family:\00003133}}
+.clickable .element:hover h2 {
+  color: white;
+}
+
+/**** Example Options ****/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_options\.scss}line{font-family:\000033}}
+#options {
+  padding-bottom: 1.0em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_options\.scss}line{font-family:\000037}}
+#options h3 {
+  margin-bottom: 0.2em;
+  font-size: 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_options\.scss}line{font-family:\0000312}}
+#options h4 {
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_options\.scss}line{font-family:\0000316}}
+#options ul {
+  margin: 0;
+  list-style: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_options\.scss}line{font-family:\0000321}}
+#options ul ul {
+  margin-left: 1.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_options\.scss}line{font-family:\0000325}}
+#options li {
+  float: left;
+  margin-bottom: 0.2em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_options\.scss}line{font-family:\0000330}}
+#options li a {
+  display: block;
+  padding: 0.4em 0.5em;
+  background-color: #DDD;
+  color: #222;
+  font-weight: bold;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+  background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+  background-image: linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_options\.scss}line{font-family:\0000344}}
+#options li a:hover {
+  background-color: #5BF;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_options\.scss}line{font-family:\0000348}}
+#options li a:active {
+  background-color: #39D;
+  -webkit-box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.6);
+  -o-box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.6);
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_options\.scss}line{font-family:\0000356}}
+#options li a {
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_options\.scss}line{font-family:\0000361}}
+#options li:first-child a {
+  border-radius: 7px 0 0 7px;
+  border-left: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_options\.scss}line{font-family:\0000366}}
+#options li:last-child a {
+  border-radius: 0 7px 7px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_options\.scss}line{font-family:\0000370}}
+#options li a.selected {
+  background-color: #13F;
+  text-shadow: none;
+  color: white;
+}
+
+/* Combination filter options*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_options\.scss}line{font-family:\0000378}}
+#options .option-combo {
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_options\.scss}line{font-family:\0000384}}
+#options .option-combo ul {
+  margin-right: 20px;
+  display: inline-block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/isotope\/_options\.scss}line{font-family:\0000390}}
+#options .option-combo h2,
+#options .option-combo h4 {
+  line-height: 34px;
+  margin-bottom: 0;
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Menu Items with Dropdowns */
+@media (max-width: 39.21429em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_uber_menu_custom\.scss}line{font-family:\0000310}}
+  #megaMenu #megaMenuToggle,
+  #megaMenu ul.megaMenu li.menu-item.ss-nav-menu-reg ul.sub-menu li.menu-item.megaReg-with-sub > a,
+  #megaMenu ul.megaMenu li.menu-item.ss-nav-menu-reg ul.sub-menu li.menu-item.megaReg-with-sub > span.um-anchoremulator,
+  #megaMenu ul.megaMenu li.menu-item.mega-with-sub > a, #megaMenu ul.megaMenu li.menu-item.mega-with-sub > span.um-anchoremulator,
+  #megaMenu ul.megaMenu li.menu-item.ss-nav-menu-mega > a,
+  #megaMenu ul.megaMenu li.menu-item.ss-nav-menu-mega > span.um-anchoremulator {
+    padding: 15px 10px;
+    font-size: 15px;
+    line-height: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_uber_menu_custom\.scss}line{font-family:\0000318}}
+  #megaMenu #megaMenuToggle {
+    padding: 19px 10px;
+    font-size: 15px;
+    line-height: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_uber_menu_custom\.scss}line{font-family:\0000328}}
+  .widget a {
+    font-size: 15px;
+  }
+}
+@media (min-width: 39.21429em) and (max-width: 53.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_uber_menu_custom\.scss}line{font-family:\0000310}}
+  #megaMenu #megaMenuToggle,
+  #megaMenu ul.megaMenu li.menu-item.ss-nav-menu-reg ul.sub-menu li.menu-item.megaReg-with-sub > a,
+  #megaMenu ul.megaMenu li.menu-item.ss-nav-menu-reg ul.sub-menu li.menu-item.megaReg-with-sub > span.um-anchoremulator,
+  #megaMenu ul.megaMenu li.menu-item.mega-with-sub > a, #megaMenu ul.megaMenu li.menu-item.mega-with-sub > span.um-anchoremulator,
+  #megaMenu ul.megaMenu li.menu-item.ss-nav-menu-mega > a,
+  #megaMenu ul.megaMenu li.menu-item.ss-nav-menu-mega > span.um-anchoremulator {
+    padding: 15px 10px;
+    font-size: 15px;
+    line-height: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_uber_menu_custom\.scss}line{font-family:\0000318}}
+  #megaMenu #megaMenuToggle {
+    padding: 19px 10px;
+    font-size: 15px;
+    line-height: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_uber_menu_custom\.scss}line{font-family:\0000336}}
+  .widget a {
+    font-size: 15px;
+  }
+}
+@media (min-width: 53.5em) and (max-width: 85.64286em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_uber_menu_custom\.scss}line{font-family:\0000310}}
+  #megaMenu #megaMenuToggle,
+  #megaMenu ul.megaMenu li.menu-item.ss-nav-menu-reg ul.sub-menu li.menu-item.megaReg-with-sub > a,
+  #megaMenu ul.megaMenu li.menu-item.ss-nav-menu-reg ul.sub-menu li.menu-item.megaReg-with-sub > span.um-anchoremulator,
+  #megaMenu ul.megaMenu li.menu-item.mega-with-sub > a, #megaMenu ul.megaMenu li.menu-item.mega-with-sub > span.um-anchoremulator,
+  #megaMenu ul.megaMenu li.menu-item.ss-nav-menu-mega > a,
+  #megaMenu ul.megaMenu li.menu-item.ss-nav-menu-mega > span.um-anchoremulator {
+    padding: 15px 10px;
+    font-size: 15px;
+    line-height: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_uber_menu_custom\.scss}line{font-family:\0000343}}
+  .widget a {
+    font-size: 15px;
+  }
+}
+@media (min-width: 85.64286em) and (max-width: 92.78571em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_uber_menu_custom\.scss}line{font-family:\0000310}}
+  #megaMenu #megaMenuToggle,
+  #megaMenu ul.megaMenu li.menu-item.ss-nav-menu-reg ul.sub-menu li.menu-item.megaReg-with-sub > a,
+  #megaMenu ul.megaMenu li.menu-item.ss-nav-menu-reg ul.sub-menu li.menu-item.megaReg-with-sub > span.um-anchoremulator,
+  #megaMenu ul.megaMenu li.menu-item.mega-with-sub > a, #megaMenu ul.megaMenu li.menu-item.mega-with-sub > span.um-anchoremulator,
+  #megaMenu ul.megaMenu li.menu-item.ss-nav-menu-mega > a,
+  #megaMenu ul.megaMenu li.menu-item.ss-nav-menu-mega > span.um-anchoremulator {
+    padding: 15px 10px;
+    font-size: 15px;
+    line-height: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_uber_menu_custom\.scss}line{font-family:\0000350}}
+  .widget a {
+    font-size: 15px;
+  }
+}
+@media (min-width: 92.78571em) and (max-width: 107.07143em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_uber_menu_custom\.scss}line{font-family:\0000310}}
+  #megaMenu #megaMenuToggle,
+  #megaMenu ul.megaMenu li.menu-item.ss-nav-menu-reg ul.sub-menu li.menu-item.megaReg-with-sub > a,
+  #megaMenu ul.megaMenu li.menu-item.ss-nav-menu-reg ul.sub-menu li.menu-item.megaReg-with-sub > span.um-anchoremulator,
+  #megaMenu ul.megaMenu li.menu-item.mega-with-sub > a, #megaMenu ul.megaMenu li.menu-item.mega-with-sub > span.um-anchoremulator,
+  #megaMenu ul.megaMenu li.menu-item.ss-nav-menu-mega > a,
+  #megaMenu ul.megaMenu li.menu-item.ss-nav-menu-mega > span.um-anchoremulator {
+    padding: 12px 15px;
+    font-size: 18px;
+    line-height: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_uber_menu_custom\.scss}line{font-family:\0000357}}
+  .widget a {
+    font-size: 18px;
+  }
+}
+@media (min-width: 107.14286em) {
+  /* Menu Items with Dropdowns */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_uber_menu_custom\.scss}line{font-family:\0000310}}
+  #megaMenu #megaMenuToggle,
+  #megaMenu ul.megaMenu li.menu-item.ss-nav-menu-reg ul.sub-menu li.menu-item.megaReg-with-sub > a,
+  #megaMenu ul.megaMenu li.menu-item.ss-nav-menu-reg ul.sub-menu li.menu-item.megaReg-with-sub > span.um-anchoremulator,
+  #megaMenu ul.megaMenu li.menu-item.mega-with-sub > a, #megaMenu ul.megaMenu li.menu-item.mega-with-sub > span.um-anchoremulator,
+  #megaMenu ul.megaMenu li.menu-item.ss-nav-menu-mega > a,
+  #megaMenu ul.megaMenu li.menu-item.ss-nav-menu-mega > span.um-anchoremulator {
+    padding: 10px 20px;
+    font-size: 19px;
+    line-height: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/EasyPHP\/www\/wordpress_gp_bondelen\/wp-content\/themes\/gp\/css\/sass\/_uber_menu_custom\.scss}line{font-family:\0000365}}
+  .widget a {
+    font-size: 19px;
+  }
+}

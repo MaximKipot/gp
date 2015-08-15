@@ -1,0 +1,41 @@
+/*
+* Elements: 
+*		#element_1
+*		#sub_element_1
+*		.etc
+*/
+
+// Base Definitions of specified Elements
+
+
+// Breakpoints for specified Elements
+
+// max-width 549px
+@include at-breakpoint($layout549) {
+
+}
+
+// max-width 749px
+@include at-breakpoint($layout749) {
+
+}
+
+// max-width 1199px
+@include at-breakpoint($layout1199) {
+
+}
+
+// max-width 1299px
+@include at-breakpoint($layout1299) {
+
+}
+
+// max-width 1499px
+@include at-breakpoint($layout1499) {
+
+}
+
+// min-width 1500px
+@include at-breakpoint($layout1500) {
+
+} 

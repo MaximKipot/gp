@@ -1,0 +1,43 @@
+@font-face {
+	font-family: 'extra-icon';
+	src:url('fonts/extra-icon.eot');
+	src:url('fonts/extra-icon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/extra-icon.woff') format('woff'),
+		url('fonts/extra-icon.ttf') format('truetype'),
+		url('fonts/extra-icon.svg#extra-icon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'extra-icon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-stop {
+	font-family: 'extra-icon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-stop:before {
+	content: "\2c";
+}

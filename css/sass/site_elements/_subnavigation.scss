@@ -1,0 +1,192 @@
+/*
+	Subnavigation Styles
+*/
+
+
+#subnavigation_holder {
+	
+	white-space: nowrap;
+
+	h1 {
+		margin: 0.67em 0;
+		margin-top: 0px;
+
+		font-weight: 300;
+		padding: 0;
+		text-align: none;
+		position: relative;
+
+		color: #FFF;
+
+		display: inline-block;
+
+		white-space: normal;
+
+	}
+
+	h6.widget-title {
+		text-transform: uppercase;
+		color: #B1B1B1;
+		margin: 60px 0px 0px 0px;
+		font-weight: 700;
+	}
+
+}
+
+#grid_content #subnavigation{
+		ul li:before {
+			content: none;
+		}
+	}
+
+#subnavigation {
+
+	ul li:before {
+		content: none;
+	}
+
+	p {
+		white-space: normal;
+	}
+
+	opacity: 0;
+
+	@include clearfix-micro();
+
+	background-color: $_subnav_color;
+	text-align: right;
+	height: 100%;
+
+	@include at-breakpoint($layout749) {width: 290px;}
+	@include at-breakpoint($layout1199) {width: 235px; margin-left: 20px; margin-right: 15px;}
+	@include at-breakpoint($layout1299) {width: 235px; margin-left: 20px; margin-right: 15px;}
+	@include at-breakpoint($layout1499) {width: 260px; margin-left: 20px;}
+	@include at-breakpoint($layout1500) {width: 340px; margin-left: 40px; margin-right: 10px;}
+}
+
+#subnavigation_holder {
+	position: absolute;
+	width: 270px;
+	height: 100%;
+
+	@include clearfix-micro();
+}
+
+#subnavigation_holder {
+	@include at-breakpoint($layout549) {position: relative; width: 90px;}
+	@include at-breakpoint($layout749) {position: relative; width: 290px;}
+	@include at-breakpoint($layout1199) {width: 290px;}
+	@include at-breakpoint($layout1299) {width: 290px;}
+	@include at-breakpoint($layout1499) {width: 320px;}
+	@include at-breakpoint($layout1500) {width: 400px;}
+}
+
+.page-template-grid_page_category-php {
+
+	#subnavigation_holder {
+		@include at-breakpoint($layout549) {position: relative; width: 100%; padding: 0 15px;}
+		@include at-breakpoint($layout749) {position: absolute; width: 290px; }
+		// @include at-breakpoint($layout1199) {width: 300px;}
+		// @include at-breakpoint($layout1299) {width: 300px;}
+		// @include at-breakpoint($layout1499) {width: 334px;}
+		// @include at-breakpoint($layout1500) {width: 419px;}
+	}
+
+}
+
+.single-post,
+.page-template-default,
+.page-template-single_sidebar_subnavigation-php {
+
+
+	#subnavigation_holder {
+		
+		background-size: cover;
+		background-position: center;
+		vertical-align: top;
+		position: relative;
+	}
+
+	#subnavigation_holder {
+		@include at-breakpoint($layout549) {position: relative; width: 100%; padding: 0 15px;}
+		@include at-breakpoint($layout749) {position: relative; width: 100%; padding: 0 15px;}
+		@include at-breakpoint($layout1199) {width: 300px;}
+		@include at-breakpoint($layout1299) {width: 300px;}
+		@include at-breakpoint($layout1499) {width: 334px;}
+		@include at-breakpoint($layout1500) {width: 419px;}
+	}
+
+	#subnavigation {
+		background-color: $_subnav_color;
+		text-align: right;
+		height: 100%;
+
+		@include at-breakpoint($layout549) {width: 100%;}
+		@include at-breakpoint($layout749) {width: 100%;}
+		@include at-breakpoint($layout1199) {width: 235px; margin-left: 20px; margin-right: 15px;}
+		@include at-breakpoint($layout1299) {width: 235px; margin-left: 20px; margin-right: 15px;}
+		@include at-breakpoint($layout1499) {width: 260px; margin-left: 20px;}
+		@include at-breakpoint($layout1500) {width: 340px; margin-left: 40px; margin-right: 10px;}
+	}
+
+}
+
+// Vertical Styles
+.body_vertical {
+	
+	#subnavigation {
+		background-color: $_subnav_color;
+		width: 60%;
+		height: 100%;
+		float: left;
+		padding: 0 7px;
+		
+		// REWRITE
+		// @include respond-to-width(320) { width: 100%; height: 50%; float: none;}
+		// @include respond-to-width(500) { width: 100%; height: 50%; float: none;}
+		
+	}	
+
+
+	@media screen and (max-height:450px) {
+		#subnavigation {
+			text-align: left;
+			margin-left: 0px;
+		}
+
+		#content {
+			float: left;
+		}
+	}
+
+	#subnavigation_holder {
+		position: relative;
+		width: 100%;
+		padding: 0;
+
+		h1 {
+			text-align: left;
+		}
+
+	}
+}
+
+.body_horizontal {
+	#subnavigation {
+		@include at-breakpoint($layout549) {width: 235px; margin-left: 20px; margin-right: 15px;}
+		@include at-breakpoint($layout749) {width: 235px; margin-left: 20px; margin-right: 15px;}
+	}
+
+	#subnavigation_holder {
+		@include at-breakpoint($layout549) {width: 290px;}
+		@include at-breakpoint($layout749) {width: 290px;}
+	}
+}
+
+.active-filter {
+	color: $_gp_orange;
+}
+
+.submenu_left {
+	white-space: normal;
+}

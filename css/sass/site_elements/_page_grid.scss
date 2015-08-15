@@ -1,0 +1,114 @@
+/*
+	Page Grid Sizes
+
+	TODO: combine with other files
+
+*/
+
+#page_grid {
+	height: 100%;
+	width: 100%;
+	background-color: $_grid_space_color;
+
+	// REWRITE OR DELETE
+	// @include respond-to-width(320) { width: 100%; height: 50%;}
+	// @include respond-to-width(650) { width: 100%; height: 50%;}
+}
+
+#page_grid {
+	@include at-breakpoint($layout549) {margin-left: 105px;}
+	@include at-breakpoint($layout749) {margin-left: 300px;}
+	// @include at-breakpoint($layout961) {margin-left: 295px;}
+	@include at-breakpoint($layout1199) {margin-left: 295px;}
+	@include at-breakpoint($layout1299) {margin-left: 300px;}
+	@include at-breakpoint($layout1499) {margin-left: 335px;}
+	@include at-breakpoint($layout1500) {margin-left: 420px;}
+}
+
+.single-post,
+.page-template,
+.page-template-default,
+.page-template-single_sidebar_subnavigation-php {
+	
+	#page_grid {
+		width: auto;
+		// width: 100%;
+	}
+
+	#page_grid {
+		@include at-breakpoint($layout549) {margin-left: 0px; padding: 0 15px;}
+		// @include at-breakpoint($layout749) {margin-left: 0px; padding: 0 15px; padding-left: 85px;}
+		@include at-breakpoint($layout749) {margin-left: 300px;}
+		@include at-breakpoint($layout1199) {margin-left: 300px;}
+		@include at-breakpoint($layout1299) {margin-left: 300px;}
+		@include at-breakpoint($layout1499) {margin-left: 334px;}
+		@include at-breakpoint($layout1500) {margin-left: 419px;}
+	}
+}
+
+.body_horizontal {
+	.content_no_left_nav {
+		&#page_grid {
+			@include at-breakpoint($layout549) {margin-left: 15px;}
+			@include at-breakpoint($layout749) {margin-left: 15px;}
+			@include at-breakpoint($layout1199) {margin-left: 20px;}
+			@include at-breakpoint($layout1299) {margin-left: 20px;}
+			@include at-breakpoint($layout1499) {margin-left: 20px;}
+			@include at-breakpoint($layout1500) {margin-left: 40px;}
+		}
+	}	
+
+	&.single-post,
+	&.page-template-default,
+	&.page-template-single_sidebar_subnavigation-php {
+		#page_grid {
+			margin-left: 0px;
+		}
+	}
+
+	.site-with-sidebar .site-content {
+		float: none;
+	}
+
+	#grid_content {
+		overflow-x: auto;
+		
+		// overflow-x: scroll;
+		-webkit-overflow-scrolling: touch;
+
+		overflow-y: hidden;
+	}
+
+}
+
+
+/* Position relative Style */
+
+// Vertical Styles
+.body_vertical {
+
+	#page_grid {
+		height: 100%;
+		width: 100%;
+		margin: 0;
+		background-color: $_grid_space_color;
+
+		overflow-y: hidden;
+	}
+
+	#page_grid {
+		@include at-breakpoint($layout549) {margin-left: 0px; padding: 0 15px;}
+		@include at-breakpoint($layout749) {margin-left: 0px; padding: 0 15px; padding-left: 95px;}
+		// @include at-breakpoint($layout1199) {margin-left: 300px;}
+		@include at-breakpoint($layout1199) {margin-left: 0px; padding: 0 15px; }
+		@include at-breakpoint($layout1299) {margin-left: 300px;}
+		@include at-breakpoint($layout1499) {margin-left: 334px;}
+		@include at-breakpoint($layout1500) {margin-left: 419px;}
+	}
+
+	#grid_content {
+		width: 100%;
+		overflow-x: hidden;
+	}
+
+}

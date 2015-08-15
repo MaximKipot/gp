@@ -1,0 +1,180 @@
+/*@gridColumnWidth1200:     70px;
+@gridGutterWidth1200:     30px;*/
+/*@gridColumnWidth768:      42px;
+@gridGutterWidth768:      20px;*/
+.row-fluid {
+  width: 100%;
+  *zoom: 1;
+}
+.row-fluid:before,
+.row-fluid:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.row-fluid:after {
+  clear: both;
+}
+.row-fluid [class*="span"] {
+  float: left;
+  margin-left: 3.225806451612903%;
+  *margin-left: 3.1989247311827955%;
+}
+.row-fluid [class*="span"]:first-child {
+  margin-left: 0;
+}
+.row-fluid .span12 {
+  width: 100%;
+  *width: 99.97311827956989%;
+}
+.row-fluid .span11 {
+  width: 91.39784946236558%;
+  *width: 91.37096774193547%;
+}
+.row-fluid .span10 {
+  width: 82.79569892473117%;
+  *width: 82.76881720430106%;
+}
+.row-fluid .span9 {
+  width: 74.19354838709677%;
+  *width: 74.16666666666666%;
+}
+.row-fluid .span8 {
+  width: 65.59139784946237%;
+  *width: 65.56451612903226%;
+}
+.row-fluid .span7 {
+  width: 56.98924731182795%;
+  *width: 56.96236559139785%;
+}
+.row-fluid .span6 {
+  width: 48.38709677419355%;
+  *width: 48.36021505376345%;
+}
+.row-fluid .span5 {
+  width: 39.784946236559136%;
+  *width: 39.75806451612903%;
+}
+.row-fluid .span4 {
+  width: 31.18279569892473%;
+  *width: 31.15591397849462%;
+}
+.row-fluid .span3 {
+  width: 22.58064516129032%;
+  *width: 22.553763440860212%;
+}
+.row-fluid .span2 {
+  width: 13.978494623655912%;
+  *width: 13.951612903225804%;
+}
+.row-fluid .span1 {
+  width: 5.376344086021505%;
+  *width: 5.349462365591397%;
+}
+.row-fluid .offset12 {
+  margin-left: 106.45161290322581%;
+  *margin-left: 106.39784946236558%;
+}
+.row-fluid .offset12:first-child {
+  margin-left: 103.2258064516129%;
+  *margin-left: 103.17204301075267%;
+}
+.row-fluid .offset11 {
+  margin-left: 97.84946236559139%;
+  *margin-left: 97.79569892473117%;
+}
+.row-fluid .offset11:first-child {
+  margin-left: 94.62365591397848%;
+  *margin-left: 94.56989247311826%;
+}
+.row-fluid .offset10 {
+  margin-left: 89.24731182795698%;
+  *margin-left: 89.19354838709675%;
+}
+.row-fluid .offset10:first-child {
+  margin-left: 86.02150537634407%;
+  *margin-left: 85.96774193548384%;
+}
+.row-fluid .offset9 {
+  margin-left: 80.64516129032258%;
+  *margin-left: 80.59139784946235%;
+}
+.row-fluid .offset9:first-child {
+  margin-left: 77.41935483870967%;
+  *margin-left: 77.36559139784944%;
+}
+.row-fluid .offset8 {
+  margin-left: 72.04301075268818%;
+  *margin-left: 71.98924731182795%;
+}
+.row-fluid .offset8:first-child {
+  margin-left: 68.81720430107526%;
+  *margin-left: 68.76344086021504%;
+}
+.row-fluid .offset7 {
+  margin-left: 63.44086021505376%;
+  *margin-left: 63.38709677419355%;
+}
+.row-fluid .offset7:first-child {
+  margin-left: 60.21505376344086%;
+  *margin-left: 60.16129032258065%;
+}
+.row-fluid .offset6 {
+  margin-left: 54.83870967741936%;
+  *margin-left: 54.78494623655915%;
+}
+.row-fluid .offset6:first-child {
+  margin-left: 51.612903225806456%;
+  *margin-left: 51.55913978494625%;
+}
+.row-fluid .offset5 {
+  margin-left: 46.236559139784944%;
+  *margin-left: 46.182795698924735%;
+}
+.row-fluid .offset5:first-child {
+  margin-left: 43.01075268817204%;
+  *margin-left: 42.95698924731183%;
+}
+.row-fluid .offset4 {
+  margin-left: 37.634408602150536%;
+  *margin-left: 37.58064516129032%;
+}
+.row-fluid .offset4:first-child {
+  margin-left: 34.40860215053763%;
+  *margin-left: 34.354838709677416%;
+}
+.row-fluid .offset3 {
+  margin-left: 29.032258064516128%;
+  *margin-left: 28.97849462365591%;
+}
+.row-fluid .offset3:first-child {
+  margin-left: 25.806451612903224%;
+  *margin-left: 25.75268817204301%;
+}
+.row-fluid .offset2 {
+  margin-left: 20.43010752688172%;
+  *margin-left: 20.3763440860215%;
+}
+.row-fluid .offset2:first-child {
+  margin-left: 17.204301075268816%;
+  *margin-left: 17.1505376344086%;
+}
+.row-fluid .offset1 {
+  margin-left: 11.827956989247312%;
+  *margin-left: 11.774193548387096%;
+}
+.row-fluid .offset1:first-child {
+  margin-left: 8.602150537634408%;
+  *margin-left: 8.548387096774192%;
+}
+/*@media (min-width: 1200px) {
+
+  // Fixed grid
+  #grid > .core(@gridColumnWidth1200, @gridGutterWidth1200);
+
+  // Fluid grid
+  #grid > .fluid(@fluidGridColumnWidth1200, @fluidGridGutterWidth1200);
+
+}
+
+*/

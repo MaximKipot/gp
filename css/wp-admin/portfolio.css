@@ -1,0 +1,253 @@
+
+#gp-portfolio-project-template {
+    display: none;
+}
+
+#gp-portfolio-no-projects th {
+    text-align: center;
+}
+
+.gp-portfolio-add-container {
+    padding: 4px 0 10px;
+}
+
+.gp-portfolio-add-container label {
+    padding: 3px 5px 0 0;
+}
+
+.gp-portfolio-add-container .button {
+    margin: 0 0 0 3px;
+}
+
+.gp-portfolio-add-container select {
+    width: 200px;
+}
+
+#gp-portfolio-project-table .col-image {
+    width: 130px;
+}
+
+#gp-portfolio-project-table .actions {
+    width: 130px;
+}
+
+#gp-portfolio-project-table .drag {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url(../../images/wp-admin/move.png);
+    position: relative;
+    top: 3px;
+    left: 5px;
+    cursor: move;
+    margin: 0 20px 0 0;
+}
+
+.gp-portfolio-project-remove {
+    color: #f00;
+    border-bottom: 1px solid #f00;
+}
+
+.gp-portfolio-project-remove:hover {
+    background: #f00;
+    color: #fff;
+    text-shadow: none;
+}
+
+/**
+ * Project Media
+ */
+
+#gp-project-media .inside,
+#gp-projects .inside {
+    margin: 0;
+    padding: 0;
+}
+
+.gp-admin-meta-box .global-controls {
+    padding: 10px;
+    overflow: hidden;
+}
+
+    .gp-admin-meta-box .global-controls a {
+        margin: 0 10px 0 0;
+    }
+
+    .gp-admin-meta-box .global-controls select {
+        padding: 4px;
+    }
+
+.gp-items-container {
+    background: #dedede;
+}
+
+.gp-item {
+    position: relative;
+    padding: 10px;
+    border-top: 1px solid #dfdfdf;
+    background: #F8F8F8;
+}
+
+    .gp-item .item-overview {
+        padding: 0 0 0 140px;
+        min-height: 120px;
+    }
+
+    .gp-item .item-overview .details {
+        position: relative;
+        padding: 0 40px 25px 0;
+        min-height: 95px;
+    }
+
+    .gp-item .item-overview .gp-drag {
+        position: absolute;
+        right: 10px;
+        left: auto;
+        top: 50%;
+        margin: -8px 0 0 0;
+    }
+
+    .gp-item .item-overview .media-preview {
+        position: absolute;
+        background-color: #eee;
+        background-size: cover;
+        background-position: center center;
+        left: 10px;
+        top: 10px;
+        width: 120px;
+        height: 120px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1) inset,
+                    0 0 0 1px rgba(0, 0, 0, 0.05) inset;
+    }
+
+    .gp-item .item-overview .media-preview:before {
+        content: ' ';
+        width: 44px;
+        height: 39px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -22px 0 0 -21px;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .gp-item .item-overview .media-preview.unknown-icon:before {
+        background-image: url(../../images/wp-admin/video.png);
+    }
+    .gp-item .item-overview .media-preview.youtube-icon:before {
+        background-image: url(../../images/wp-admin/youtube.png);
+    }
+
+    .gp-item .item-overview .media-preview.vimeo-icon:before {
+        background-image: url(../../images/wp-admin/vimeo.png);
+    }
+
+    .gp-item .item-overview .item-title,
+    .gp-item .item-overview .item-type {
+        color: #777777;
+        font-size: 12px;
+        font-weight: bold;
+        text-shadow: 0 1px 0 #FFFFFF;
+        text-transform: uppercase;
+    }
+
+        .gp-item .item-overview .item-type .unpublished,
+        .gp-item .item-overview .item-type .featured {
+            text-transform: none;
+            font-weight: normal;
+        }
+
+    .gp-item .item-overview .item-filename {
+        font-weight: bold;
+        color: #464646;
+        word-wrap: break-word;
+    }
+
+    .gp-item .item-overview .item-description {
+        color: #999;
+    }
+
+    .gp-item .item-overview .item-actions {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .gp-item .item-overview .item-actions a {
+        text-decoration: none;
+        float: left;
+        margin: 0 15px 0 0;
+    }
+
+    .gp-item.ui-sortable-helper {
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+        border: 1px solid #ccc;
+    }
+
+.gp-item .item-edit {
+    padding: 10px;
+    margin: 10px 0 0 0;
+    background: #F1F1F1;
+    border: 1px dashed #DFDFDF;
+    display: none;
+}
+
+    .gp-item .item-edit .control-group {
+        margin: 0 0 10px 0;
+        line-height: 25px;
+        clear: both;
+        overflow: hidden;
+    }
+
+    .gp-item .item-edit .control-group:last-child {
+        margin-bottom: 0;
+    }
+
+    .gp-item .item-edit .control-group label,
+    .gp-item .item-edit .control-group .control-title {
+        width: 20%;
+        float: left;
+    }
+
+    .gp-item .item-edit .control-group .control {
+        float: left;
+        width: 40%;
+        margin: 0 10px 0 0;
+    }
+
+        .gp-item .item-edit .control-group .control .value {
+            color: #464646;
+            font-weight: bold;
+            word-wrap: break-word;
+            margin: 0 10px 0 0;
+        }
+
+        .gp-item .item-edit .control-group .control textarea {
+            width: 100%;
+            height: 80px;
+            padding: 4px;
+            line-height: 18px;
+        }
+
+        .gp-item .item-edit .control-group .control input[type="checkbox"] {
+            margin-top: -2px;
+        }
+
+    .gp-item .item-edit .control-group .control-info {
+        padding: 0 0 0 10px;
+        line-height: 18px;
+        padding: 4px 0 0 0;
+        float: left;
+        width: 36%;
+    }
+
+    .gp-item .btn-delete {
+        color: #BC0B0B;
+        float: right;
+    }
+
+    .gp-item .btn-delete:hover {
+        color: red;
+    }
+
+

@@ -1,0 +1,43 @@
+/*
+* GRID Page Template CSS
+*/
+
+.page-template-grid_page_category_full_width-php,
+.page-template-grid_page_category-php {
+
+	&.body_horizontal {
+		overflow-y: hidden;
+		overflow-x: hidden;
+	}
+
+	#header {
+	 	position: fixed;
+	}
+
+	&.body_vertical {
+		
+		#header {
+		 	position: relative;
+		}
+
+		#subnavigation {
+			float: right;
+			width: 100%;
+		}
+
+		#page_grid {
+			@include at-breakpoint($layout549) {margin-left: 0px; padding: 0;}
+			@include at-breakpoint($layout749) {margin-left: 0px; padding: 0;}
+			@include at-breakpoint($layout1199) {margin-left: 0px;}
+			@include at-breakpoint($layout1299) {margin-left: 0px;}
+			@include at-breakpoint($layout1499) {margin-left: 0px;}
+			@include at-breakpoint($layout1500) {margin-left: 0px;}
+		}
+
+		article {
+			max-width: none;
+		}
+
+	}
+
+}

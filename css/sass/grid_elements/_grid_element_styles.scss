@@ -1,0 +1,77 @@
+/*
+	This stylesheet contains:
+	- mixin for grid Elements, which defines
+		- all possible colors for all elements within a parent grid Element
+	- use of mixin for grid Elements
+
+*/
+
+
+// Mixin for Grid Elements
+@mixin grid_element_style($_border, $_background, $_head, $_text) {
+	color: $_text;
+	.inner_element {
+		background-color: $_background;
+		border-color: $_border;
+		h2.article_title {
+			color: $_head;
+			a{
+				color: $_head;
+			}
+			a:hover {
+				color: lighten($_head, 15);
+			}
+			&:after {
+				background: $_head;
+			}
+			&:hover {
+				color: lighten($_head, 15);
+			}
+		}
+		color: $_head;
+		a{
+			color: $_head;
+		}
+		a:hover {
+			color: lighten($_head, 15);
+		}
+
+	}
+}
+
+// Styles (Color) for Grid Elements
+article {
+	&.grey_back_turquoise {
+		@include grid_element_style($_turquoise_dark, $_gp_background_grey, $_turquoise_dark, $_turquoise_dark);
+	}
+
+	&.grey_back_orange {
+		@include grid_element_style($_orange, $_gp_background_grey, $_orange, $_orange);
+	}
+
+	&.orange_back_white {
+		@include grid_element_style($_white, $_orange, $_white, $_white);
+	}
+
+	&.turquoise_back_white {
+		@include grid_element_style($_white, $_turquoise_dark, $_white, $_white);
+	}
+
+	&.turquoise_light_back_white {
+		@include grid_element_style($_white, $_turquoise_light, $_white, $_white);
+	}
+
+	&.turquoise_light_back_dark {
+		@include grid_element_style($_turquoise_dark, $_turquoise_light, $_turquoise_dark, $_turquoise_dark);
+	}
+
+	&.white_back_turquoise {
+		@include grid_element_style($_turquoise_dark, $_white, $_turquoise_dark, $_turquoise_dark);
+	}
+
+	&.white_back_orange {
+		@include grid_element_style($_orange, $_white, $_orange, $_orange);
+	}
+}
+
+

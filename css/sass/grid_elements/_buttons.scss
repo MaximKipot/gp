@@ -1,0 +1,170 @@
+/* 	
+*	Purpose: button styles
+*	Dependencies: sassy-buttons
+*	
+*   TO-DO: optimize it deeper / use another set of buttons
+*
+*/
+
+@mixin _button_base {
+	text-shadow: none;
+	font-weight: 400;
+	border: 1px solid;	
+	font-size: 15px;
+}
+
+@mixin _textlike_button_base {
+	@include _button_base;
+	font-style: italic;
+	font-weight: 600;
+	border-color: transparent;
+	background-color: transparent;
+	padding: 6px 0px;		
+}
+
+$_button_border_radius: 0px;
+$_button_font_size: 15px;
+$_button_padding: 6px 10px;
+$_button_style_type: "flat";
+
+.entry-content {
+	button,
+	a {
+		p.button-orange,
+		&.orange,
+		&.button-orange {
+			$sb-text-color: $_white;
+			@include sassy-button($_button_style_type, $_button_border_radius, $_button_font_size, $_orange, $_orange, $_white, "none", true);
+			border-color: $_white;
+			@include _button_base;
+			@include sassy-button-structure($_button_border_radius, $_button_font_size, $_button_padding);
+		}
+
+		p.button-orange_text,
+		&.orange_text {
+			$sb-text-color: $_orange;
+			@include sassy-button($_button_style_type, $_button_border_radius, $_button_font_size, $_white, $_white, $_white, "none", true);
+			font-style: italic;
+			@include _button_base;
+			@include sassy-button-structure($_button_border_radius, $_button_font_size, 0px 2px);
+			font-weight: 600;
+			border-color: transparent;
+			&:hover {
+				background-color: $_white;
+			}
+		}
+
+		p.button-turquoise,
+		&.turquoise,
+		&.button-turquoise {
+			$sb-text-color: $_white;
+			@include sassy-button($_button_style_type, $_button_border_radius, $_button_font_size, $_turquoise_dark, $_turquoise_dark, $_white, "none", true);
+			border-color: $_white;
+			@include _button_base;
+			@include sassy-button-structure($_button_border_radius, $_button_font_size, $_button_padding);
+		}
+
+		p.button-gp_background,
+		&.gp_background,
+		&.button-gp_background {
+			$sb-text-color: $_turquoise_dark;
+			@include sassy-button($_button_style_type, $_button_border_radius, $_button_font_size, $_gp_background_grey, $_gp_background_grey, $_turquoise_dark, "none", true);
+			border-color: $_turquoise_dark;
+			@include _button_base;
+			@include sassy-button-structure($_button_border_radius, $_button_font_size, $_button_padding);
+		}
+
+		p.button-white,
+		&.white,
+		&.button-white {
+			
+			$sb-text-color: $_turquoise_dark;
+			@include sassy-button($_button_style_type, $_button_border_radius, $_button_font_size, $_white, $_white, $_gp_background_grey, "none", true);
+			border-color: $_gp_background_grey;
+			@include _button_base;
+			@include sassy-button-structure($_button_border_radius, $_button_font_size, $_button_padding);
+
+		}
+	}	
+}
+
+button,
+a {
+	p.button-orange,
+	&.orange,
+	&.button-orange {
+		$sb-text-color: $_white;
+		@include sassy-button($_button_style_type, $_button_border_radius, $_button_font_size, $_orange, $_orange, $_white, "none", true);
+		border-color: $_white;
+		@include _button_base;
+		@include sassy-button-structure($_button_border_radius, $_button_font_size, $_button_padding);
+	}
+
+	p.button-orange_text,
+	&.orange_text {
+		color: $_orange;
+		@include _textlike_button_base;
+	}
+
+	p.button-white_text,
+	&.white_text {
+		color: $_white;
+		@include _textlike_button_base;	
+	}
+	
+	p.button-turqoise_dark_text,
+	&.turqoise_dark_text {
+		color: $_turquoise_dark;
+		@include _textlike_button_base;
+	}
+	
+	p.button-turqoise_light_text,
+	&.turqoise_light_text {
+		color: #7E9197;
+		@include _textlike_button_base;	
+	}
+
+	p.button-turquoise,
+	&.turquoise,
+	&.button-turquoise {
+		$sb-text-color: $_white;
+		@include sassy-button($_button_style_type, $_button_border_radius, $_button_font_size, $_turquoise_dark, $_turquoise_dark, $_white, "none", true);
+		border-color: $_white;
+		@include _button_base;
+		@include sassy-button-structure($_button_border_radius, $_button_font_size, $_button_padding);
+	}
+
+	p.button-gp_background,
+	&.gp_background,
+	&.button-gp_background {
+		$sb-text-color: $_turquoise_dark;
+		@include sassy-button($_button_style_type, $_button_border_radius, $_button_font_size, $_gp_background_grey, $_gp_background_grey, $_turquoise_dark, "none", true);
+		border-color: $_turquoise_dark;
+		@include _button_base;
+		@include sassy-button-structure($_button_border_radius, $_button_font_size, $_button_padding);
+	}
+
+	p.button-white,
+	&.white,
+	&.button-white {
+		$sb-text-color: $_turquoise_dark;
+		@include sassy-button($_button_style_type, $_button_border_radius, $_button_font_size, $_white, $_white, $_gp_background_grey, "none", true);
+		border-color: $_gp_background_grey;
+		@include _button_base;
+		@include sassy-button-structure($_button_border_radius, $_button_font_size, $_button_padding);
+
+	}
+	
+	p.button-white_orange_text,
+	&.white_orange_text,
+	&.button-white_orange_text {
+		$sb-text-color: $_orange;
+		@include sassy-button($_button_style_type, $_button_border_radius, $_button_font_size, $_white, $_white, $_gp_background_grey, "none", true);
+		border-color: $_orange;
+		@include _button_base;
+		@include sassy-button-structure($_button_border_radius, $_button_font_size, $_button_padding);
+
+	} 
+}	
+
+

@@ -1,0 +1,44 @@
+.site .portfolio-navigation .other-projects .hover {
+    display: none;
+}
+
+.site .portfolio-navigation .other-projects .active .hover {
+    height: auto;
+    line-height: 24px;
+    color: #fff;
+    color: #000;
+    top: 50%;
+    margin-top: -12px;
+    background: #fff;
+    display: block;
+}
+
+.site .grid-project .hover-box {
+    visibility: hidden;
+    background: transparent;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#50111111,endColorstr=#50111111);
+    zoom: 1;
+}
+
+.site .grid-project .preview:hover .hover-box {
+    visibility: visible;
+}
+
+.site .project .hover-box {
+    visibility: hidden;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#50111111,endColorstr=#50111111);
+}
+
+.site .project:hover .hover-box {
+    visibility: visible;
+}
+
+.reveal-modal-bg,
+.site #map-dim {
+    background: transparent;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#70111111,endColorstr=#70111111);
+}
+
+.site #map-dim.dim-image {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#35111111,endColorstr=#35111111);
+}

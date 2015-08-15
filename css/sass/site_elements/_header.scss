@@ -1,0 +1,236 @@
+/*
+* Elements: 
+*		#header
+*		#header-logo-block
+*		#header-navigation
+*/
+
+// Base Definitions of specified Elements
+
+#header{
+  width: 100%;
+  padding: 0;
+  padding-bottom: 20px;
+
+  min-height: 60px;
+  #header-logo-block{
+    position: absolute;
+  }
+}
+
+
+#header,
+#header-push {
+  background-color: $_navigation_color;
+  display: block;
+  width: 100%;
+}
+
+// #header-push {
+//   background-color: $_grid_brick_color;//$_navigation_color;
+// }
+
+#header {
+  // position: fixed;
+  top: 0px;
+  // @include clearfix-micro();
+}
+
+#header-logo-block {  
+  height: 100%;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+
+#header-navigation {
+  display: inline-block;
+} 
+
+// Page specific definitions
+.single-post,
+.page-template-default {
+
+}
+
+#top_iframe {
+  display: none;
+  // background-image: url('../images/ajax-loader.gif');
+  // background-repeat: no-repeat;
+  // background-position: center center;
+}
+
+// Vertical Styles
+.body_vertical {
+
+    #header,
+    #header-push {
+      display: block;
+      width: 100%;
+    }
+
+    #header {
+      position: relative;
+      top: 0px;
+    }
+
+    #header-push {
+      display: none;
+    }
+
+    #header-navigation {
+      margin-left: 0px; 
+      width: 100%; 
+      display: block;
+    }
+
+    #header-logo-block {
+      // width: 100%;
+    }
+
+}
+
+#header_extra_block {
+  width: 100%;
+}
+
+#header-logo-block{
+  height: 60px;
+  width: 60px;
+  background-image: url("../images/gp%2060x60.png");
+  left: 15px;
+}
+
+// Breakpoints for specified Elements #header{
+@include at-breakpoint($layout549) {
+  min-height: 60px;
+  
+  #header-logo-block{
+    height: 60px;
+    width: 60px;
+    background-image: url("../images/gp%2060x60.png");
+    left: 15px;
+  }
+
+  #header-navigation{
+    display: block;
+    width: 100%;
+    padding: 30px 120px 0 90px;
+    margin: 0px 0px 15px 0px;
+    height: 60px;
+  }
+  
+}
+
+// max-width 749px
+@include at-breakpoint($layout749) {
+  #header{
+    min-height: 80px;
+    
+    #header-logo-block{
+      height: 60px;
+      width: 60px;
+      background-image: url("../images/gp%2060x60.png");
+      top: 10px;
+      left: 15px;
+    }
+
+    #header-navigation{
+      display: block;
+      width: 100%;
+      padding: 40px 15px 0 90px;
+      margin: 0px 0px 0px 0px;
+      height: 70px;
+    }
+
+  }
+}
+
+// max-width 1199px
+@include at-breakpoint($layout1199) {
+  
+  #header{
+    min-height: 110px;
+    
+    #header-logo-block{
+      height: 60px;
+      width: 250px;
+      background-image: url("../images/gp%20230x60.png");
+      top: 10px;
+      left: 20px;
+    }
+
+    #header-navigation{
+      display: inline-block;
+      padding: 0 20px 0 290px;
+      margin: 40px 0 0 0;
+    }
+
+  }
+
+}
+
+// max-width 1299px
+@include at-breakpoint($layout1299) {
+  #header{
+    min-height: 110px;
+
+    #header-logo-block{
+      height: 60px;
+      width: 250px;
+      background-image: url("../images/gp%20230x60.png");
+      top: 10px;
+      left: 20px;
+    }
+
+    #header-navigation{
+      display: inline-block;
+      padding: 0 20px 0 290px;
+      margin: 40px 0 0 0;
+    }
+
+  }
+}
+
+// max-width 1499px
+@include at-breakpoint($layout1499) {
+  #header{
+    min-height: 130px;
+
+    #header-logo-block{
+      height: 70px;
+      width: 260px;
+      background-image: url("../images/gp%20260x70.png");
+      top: 15px;
+      left: 20px;
+    }
+
+    #header-navigation{
+      display: inline-block;
+      padding: 0 20px 0 320px;
+      margin: 55px 0 0;
+    }
+
+  }
+}
+
+// min-width 1500px
+@include at-breakpoint($layout1500) {
+  #header{
+    min-height: 130px;
+
+    #header-logo-block{
+      height: 74px;
+      width: 360px;
+      background-image: url("../images/gp%20340x74.png");
+      top: 13px;
+      left: 40px;
+    }
+
+    #header-navigation{
+      display: inline-block;
+      padding: 0 20px 0 400px;
+      margin: 57px 0 0;
+    }
+    
+  }
+} 

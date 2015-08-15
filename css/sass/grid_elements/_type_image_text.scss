@@ -1,0 +1,269 @@
+/* 	
+*	Purpose: styles for Grid elements with image and typo in it
+*	
+*/
+
+	.image_overlay {
+		display: block;
+		position: absolute;
+		height: 100%;
+		width: 100%;
+
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	.image_overlay_top_parent {
+
+	}
+
+	.w_2 {
+		h2.article_title {
+			font-size: 140%;
+		}
+		
+		.image_overlay_left {
+			width: 100%;
+		}
+		
+		.image_overlay_left_parent {
+			left: 0;
+		}
+
+		.image_overlay_left_big {
+			width: 100%;
+		}
+		
+		.image_overlay_left_big_parent {
+			left: 0;
+		}
+	}
+
+	.w_3 {
+		h2.article_title {
+			font-size: 170%;
+		}
+		
+		.image_overlay_left {
+			width: 33.7%;
+		}
+
+		.image_overlay_left_parent {
+			left: 33.7%;
+		}
+
+		.image_overlay_left_big {
+			width: 69.6%;
+		}
+
+		.image_overlay_left_big_parent {
+			left: 69.6%;
+		}
+	}
+
+	.w_4 {
+		h2.article_title {
+			font-size: 170%;
+		}
+		
+		.image_overlay_left {
+			width: 50%;
+		}
+
+		.image_overlay_left_parent {
+			left: 50%;
+		}
+
+		.image_overlay_left_big {
+			width: 50%;
+		}
+
+		.image_overlay_left_big_parent {
+			left: 50%;
+		}
+	}
+
+	.w_6 {
+		h2.article_title {
+			font-size: 170%;
+		}
+		
+		.image_overlay_left {
+			width: 33.7%;
+		}
+
+		.image_overlay_left_parent {
+			left: 33.7%;
+		}
+
+		.image_overlay_left_big {
+			width: 69.6%;
+		}
+
+		.image_overlay_left_big_parent {
+			left: 69.6%;
+		}
+	}
+
+	.w_8 {
+		h2.article_title {
+			font-size: 210%;
+		}
+
+		.image_overlay_left {
+			width: 25%;
+		}
+
+		.image_overlay_left_parent {
+			left: 25%;
+		}
+
+		.image_overlay_left_big {
+			width: 75%;
+		}
+
+		.image_overlay_left_big_parent {
+			left: 75%;
+		}
+	}
+
+	.w_max {
+		h2.article_title {
+			font-size: 400%;
+		}
+
+		.image_overlay_left_parent {
+			left: 25%;
+		}
+
+		.image_overlay_left {
+			width: 25%;
+		}
+
+		.image_overlay_left_big_parent {
+			left: 75%;
+		}
+
+		.image_overlay_left_big {
+			width: 75%;
+		}
+	}
+
+	.h_2 {
+
+		.image_overlay_top_parent {
+			top: 51.5%; 
+		}
+
+		.image_overlay_top {
+			height: 51.5%;
+		}
+
+		.image_overlay_top_big_parent {
+			top: 0%;
+		}
+
+		.image_overlay_top_big {
+			height: 100%;
+		}
+	}
+
+	.h_3 {
+
+		.image_overlay_top_parent {
+			top: 51.5%; 
+		}
+
+		.image_overlay_top {
+			height: 51.5%;
+		}
+
+		.image_overlay_top_big_parent {
+			top: 33.7%;
+		}
+
+		.image_overlay_top_big {
+			height: 33.7%;
+		}
+	}
+
+	.h_4 {
+
+		.image_overlay_top_parent {
+			top: 51.5%; 
+		}
+
+		.image_overlay_top {
+			height: 51.5%;
+		}
+
+		.image_overlay_top_big_parent {
+			top: 69.6%; 
+		}
+
+		.image_overlay_top_big {
+			height: 69.6%;
+		}
+	}
+
+	.h_6 {
+
+		.image_overlay_top_parent {
+			top: 33.7%;
+		}
+
+		.image_overlay_top {
+			height: 33.7%;
+		}
+
+		.image_overlay_top_big_parent {
+			top: 69.6%;
+		}
+
+		.image_overlay_top_big {
+			height: 69.6%;
+		}
+	}
+
+	.h_8 {
+
+		.image_overlay_top_parent {
+			top: 25%;
+		}
+
+		.image_overlay_top {
+			height: 25%;
+		}
+
+		.image_overlay_top_big_parent {
+			top: 75%;
+		}
+
+		.image_overlay_top_big {
+			height: 75%;
+		}
+
+	}
+
+	.h_max {
+
+		.image_overlay_top_parent {
+			top: 25%;
+		}
+
+		.image_overlay_top {
+			height: 25%;
+		}
+
+		.image_overlay_top_big_parent {
+			top: 75%;
+		}
+
+		.image_overlay_top_big {
+			height: 75%;
+		}
+
+	}
+
+

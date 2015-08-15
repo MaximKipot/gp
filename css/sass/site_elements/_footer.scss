@@ -1,0 +1,71 @@
+#footer,
+#footer-push {
+	// height: 22px;
+	
+	display: inline-block;
+	width: 100%;
+}
+
+#footer {
+	
+	opacity: 0;
+
+	position: fixed;
+	background-color: $_footer_color;
+	bottom: 0px;
+	left: 0px;
+	
+	ul {
+		margin: 0;
+	}
+
+	.footer-inner {
+		padding: 5px 15px;
+	}
+}
+
+.footer-navigation {
+	float: none;
+	margin: 0 0 0 16px;
+}
+
+.footer-navigation a {
+	color: #1c4c51;
+	font-size: 12px;
+	border-bottom: none;
+	padding: 0 0 1px;
+}
+
+.footer-links {
+	float: none;
+}
+
+.footer-links .credits {
+	float: left;
+	margin: 0 0 0 30px;
+	color: white;
+}
+
+
+// Page specific Styles
+.single-post,
+.page-template-default {
+	#footer {
+		@include clearfix-micro();
+		@include at-breakpoint($layout549) {position: relative; bottom: auto; height: auto;}
+		@include at-breakpoint($layout749) {position: relative; bottom: auto; height: auto;}
+	}
+}
+
+// Vertical Styles
+.body_vertical {
+
+	#footer-push {
+		display: none;
+	}
+
+	#footer {
+		position: relative;
+	}
+	
+}

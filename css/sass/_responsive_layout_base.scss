@@ -1,0 +1,48 @@
+@include border-box-sizing;
+
+// Usually compass hacks apply to both ie6 & 7 -- set this to false to disable support for both.
+$legacy-support-for-ie: true !default;
+
+// Setting this to false will result in smaller output, but no support for ie6 hacks
+$legacy-support-for-ie6: $legacy-support-for-ie !default;
+
+// Setting this to false will result in smaller output, but no support for ie7 hacks
+$legacy-support-for-ie7: $legacy-support-for-ie !default;
+
+// Setting this to false will result in smaller output, but no support for legacy ie8 hacks
+$legacy-support-for-ie8: $legacy-support-for-ie !default;
+
+// Setting this to false will result in smaller output, but no support for legacy mozilla hacks
+$legacy-support-for-mozilla: $legacy-support-for-ie !default;
+
+
+// Enter a base pixel size in px (without the px)
+$basepx: 14;
+
+// Convert PX to EM global function
+@function pxtoem($px, $basepx){
+  @return ($px/$basepx)+0em;
+}
+
+////////////////////////////////////
+// SetUp for the responsive grid  //
+////////////////////////////////////
+$width-549  : pxtoem(549, $basepx);
+$width-749  : pxtoem(749, $basepx);
+$width-961  : pxtoem(961, $basepx);
+$width-1199 : pxtoem(1199, $basepx);
+$width-1299 : pxtoem(1299, $basepx);
+$width-1499 : pxtoem(1499, $basepx);
+$width-1500 : pxtoem(1500, $basepx);
+
+$columns12  : 12;
+$columns24  : 24;
+$columns48  : 48;
+
+$layout549: $columns12 $width-549;
+$layout749: $width-549 $columns24 $width-749;
+// $layout961: $width-749 $columns24 $width-961;
+$layout1199: $width-749 $columns24 $width-1199;
+$layout1299: $width-1199 $columns24 $width-1299;
+$layout1499: $width-1299 $columns24 $width-1499;
+$layout1500: $width-1500 $columns24;

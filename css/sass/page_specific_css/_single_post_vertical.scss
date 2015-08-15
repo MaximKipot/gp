@@ -1,0 +1,36 @@
+/*
+* Single Post CSS
+*/
+
+.single-post,
+.page-template-default,
+.page-template-single_sidebar_subnavigation-php {
+	
+	&.body_vertical {
+		
+		.site-content article.divider {
+			height: 2px;
+
+			// default color settings
+			background-color: #fff; 
+			color: transparent;
+		}
+
+		.site-content article {
+			margin-bottom: 30px;
+		}
+
+		.site-content article img{
+			margin-bottom: 10px;
+		}
+
+	}
+
+	.site-content {
+		// display: none;
+		opacity: 0;
+		width: auto;
+	}
+
+}
+
